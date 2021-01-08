@@ -1,24 +1,23 @@
 import React, { Component } from 'react';
 import ReactPlayer from 'react-player'
 
-class Gallery extends Component {
+class GalleryST extends Component {
     render() {
         return (
             <div className='player-wrapper'>
                 <h2>Signal Transduction Supplementary Asset Gallery</h2>
-
                 <h3>Signal Transduction: Primitive Shapes A</h3>
-                <img className='img-card'
+                <img className='img-gallery'
                      src={`${process.env.PUBLIC_URL}/assets/st/st1.png`}
-                     width='60%'
-                     height='60%'
+                     width='100%'
+                     height='100%'
                      alt="st1.png"/>
 
                 <h3>Signal Transduction: Primitive Shapes B</h3>
-                <img className='img-card'
+                <img className='img-gallery'
                      src={`${process.env.PUBLIC_URL}/assets/st/st2.png`}
-                     width='60%'
-                     height='60%'
+                     width='100%'
+                     height='100%'
                      alt="st2.png"/>
 
                 <h3>Signal Transduction: Primitive Shapes</h3>
@@ -75,5 +74,5 @@ class Gallery extends Component {
             </div>
         );
     }}
-export default Gallery;
+export default GalleryST;
 

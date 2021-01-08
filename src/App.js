@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import './App.css';
 import Header from './Components/Header'
-import Gallery from './Components/Gallery'
-import Nav from './Components/Nav'
+import GalleryST from './Components/GalleryST'
+
 
 class App extends Component {
     render() {
@@ -12,8 +12,7 @@ class App extends Component {
                     <Header />
                 </header>
                 <div className="Gallery">
-                    <Nav />
-                    <Gallery />
+                    <GalleryST />
                 </div>
             </div>
         );

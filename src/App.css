@@ -12,7 +12,8 @@ html, body {
 }
 
 .App-header {
-  /*background-color: #282c34;*/
+  background-color: #282c34;
+  width: 60%;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -25,7 +26,7 @@ html, body {
 }
 
 .Header {
-  background-color: aquamarine;
+  /*background-color: aquamarine;*/
 }
 
 .Gallery {
@@ -39,13 +40,13 @@ html, body {
 
 .player-wrapper {
   position: relative;
-  padding-top: 3%;
-  padding-bottom: 2%;
-  padding-left: 2%;
-  padding-right: 2%;
+  padding: 3% 2% 2% 2%;
 }
 .img-gallery {
-
+  position: relative;
+  padding: 2% 2% 4% 2%;
+  top: 0;
+  left: 0;
 }
 .react-player {
   position: relative;

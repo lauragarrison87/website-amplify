@@ -5,6 +5,7 @@ class Gallery extends Component {
     render() {
         return (
             <div className='player-wrapper'>
+                <h2>Signal Transduction Supplementary Asset Gallery</h2>
                 <h3>Signal Transduction: Primitive Shapes</h3>
                 <ReactPlayer
                     className='react-player'
@@ -30,9 +31,6 @@ class Gallery extends Component {
                     controls={true}
                     loop={true}
                     onReady={() => console.log('onReady callback')}
-                    onStart={() => console.log('onStart callback')}
-                    onPause={() => console.log('onPause callback')}
-                    onEnded={() => console.log('onEnded callback')}
                     onError={() => console.log('onError callback')}
                 />
 
@@ -45,9 +43,6 @@ class Gallery extends Component {
                     controls={true}
                     loop={true}
                     onReady={() => console.log('onReady callback')}
-                    onStart={() => console.log('onStart callback')}
-                    onPause={() => console.log('onPause callback')}
-                    onEnded={() => console.log('onEnded callback')}
                     onError={() => console.log('onError callback')}
                 />
 
@@ -60,9 +55,6 @@ class Gallery extends Component {
                     controls={true}
                     loop={true}
                     onReady={() => console.log('onReady callback')}
-                    onStart={() => console.log('onStart callback')}
-                    onPause={() => console.log('onPause callback')}
-                    onEnded={() => console.log('onEnded callback')}
                     onError={() => console.log('onError callback')}
                 />
             </div>

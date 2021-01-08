@@ -60,6 +60,7 @@ html, body {
 
 .react-player {
   position: relative;
+  /*padding: 2%;*/
   top: 0;
   left: 0;
 }

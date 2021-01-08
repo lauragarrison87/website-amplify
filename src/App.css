@@ -32,6 +32,7 @@ html, body {
   font-size: calc(10px + 2vmin);
   color: white;
   padding-right: 5%;
+  padding-left: 5%;
 }
 
 .App-link {
@@ -44,18 +45,23 @@ html, body {
 
 .Gallery {
   background-color: lightskyblue;
+  width: 70%;
+  padding-right: 1%;
+  padding-left: 1%;
+  max-height: 100vh;
+  overflow: scroll;
 }
 
 .player-wrapper {
   position: relative;
-  padding-top: 5%; /* Player ratio: 100 / (1280 / 720) */
-  padding-bottom: 5%;
+  padding-top: 2%; /* Player ratio: 100 / (1280 / 720) */
+  padding-bottom: 2%;
 }
 
 .react-player {
-  position: absolute; /*original code had this as absolute before, but this was borked*/
-/*  top: 0;
-  left: 0;*/
+  position: relative;
+  top: 0;
+  left: 0;
 }
 
 @keyframes App-logo-spin {

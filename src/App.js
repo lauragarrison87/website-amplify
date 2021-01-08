@@ -11,7 +11,6 @@ class App extends Component {
                     <Header />
                     <p>Website update in progress. Check back soon!</p>
                 </header>
-
                 <div className="Gallery">
                     <Gallery />
                 </div>

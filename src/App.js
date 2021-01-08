@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import Header from './Components/Header'
 import Gallery from './Components/Gallery'
+import Nav from './Components/Nav'
 
 class App extends Component {
     render() {
@@ -9,9 +10,9 @@ class App extends Component {
             <div className="App">
                 <header className="App-header">
                     <Header />
-                    <p>Website update in progress. Check back soon!</p>
                 </header>
                 <div className="Gallery">
+                    <Nav />
                     <Gallery />
                 </div>
             </div>

@@ -10,9 +10,17 @@ class Header extends Component {
                     University of Bergen, Norway
                 </p>
                 <br/>
-                <h1>How do we spatially represent different biomedical processes?</h1>
+                <h1>How do we spatially visualize different biomedical processes? What works, and what doesn't?</h1>
                 <br/>
                 <p>This is a companion site to our ongoing research exploring ways to <strong>more effectively communicate complex concepts in physiology and other biomedical processes</strong>. Explore higher resolution gallery images to the right.</p>
+                <br/>
+                <p>
+                    <em>Interested in participating in our survey? </em>
+                    How do you think about showing signalling in cells, and what happens when this goes wrong?
+                </p>
+                <p>
+                    Email <strong>laura.garrison [at] uib.no</strong> to join in - we appreciate your thoughts and feedback!
+                </p>
             </div>
         );
     }

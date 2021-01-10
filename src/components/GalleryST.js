@@ -16,6 +16,7 @@ class GalleryST extends Component {
                     loop={true}
                     onReady={() => console.log('onReady callback')}
                     onError={() => console.log('onError callback')}
+                    alt="stRealisticLarger.mp4"
                 />
 
                 <h3>Signal Transduction: M</h3>
@@ -31,6 +32,7 @@ class GalleryST extends Component {
                     onPause={() => console.log('onPause callback')}
                     onEnded={() => console.log('onEnded callback')}
                     onError={() => console.log('onError callback')}
+                    alt="stPrimitiveLarger.mp4"
                 />
                     <h3>Signal Transduction: L</h3>
                     <img className='img-gallery'

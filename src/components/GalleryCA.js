@@ -16,6 +16,7 @@ class GalleryCA extends Component {
                     loop={true}
                     onReady={() => console.log('onReady callback')}
                     onError={() => console.log('onError callback')}
+                    alt="oaRealisticLarger.mp4"
                 />
 
                 <h3>Constitutive Activation: M</h3>
@@ -31,6 +32,7 @@ class GalleryCA extends Component {
                     onPause={() => console.log('onPause callback')}
                     onEnded={() => console.log('onEnded callback')}
                     onError={() => console.log('onError callback')}
+                    alt="oaPrimitiveLarger.mp4"
                 />
                 <h3>Constitutive Activation: L</h3>
                 <img className='img-gallery'

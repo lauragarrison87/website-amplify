@@ -1,11 +1,10 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import './App.css';
-import Nav from './Components/Nav'
-import Header from './Components/Header'
-import GalleryST from './Components/GalleryST'
-import GalleryCA from './Components/GalleryCA'
-
+import Nav from './components/Nav';
+import Header from './components/Header';
+import GalleryST from './components/GalleryST';
+import GalleryCA from './components/GalleryCA'
 
 class App extends Component {
     render() {

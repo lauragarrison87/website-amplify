@@ -1,19 +1,11 @@
 import React, { Component } from 'react';
 import ReactPlayer from 'react-player'
 
-class GalleryST extends Component {
-    constructor() {
-        super();
-        this.state = {
-            name:"React"
-        };
-    }
+class GalleryOA extends Component {
     render() {
         return (
             <div className='player-wrapper'>
-                <h1 className="display-5">Constitutive Activation Supplementary Asset Gallery</h1>
-
-                <h3>Constitutive Activation: Primitive Shapes</h3>
+                <p>Constitutive Activation: Primitive Shapes</p>
                 <ReactPlayer
                     className='react-player'
                     url={`${process.env.PUBLIC_URL}/assets/oa/oaPrimitiveLarger.mp4`}
@@ -25,7 +17,7 @@ class GalleryST extends Component {
                     onError={() => console.log('onError callback')}
                 />
 
-                <h3>Constitutive Activation: Realistic Shapes</h3>
+                <p>Constitutive Activation: Realistic Shapes</p>
                 <ReactPlayer
                     className='react-player'
                     url={`${process.env.PUBLIC_URL}/assets/oa/oaRealisticLarger.mp4`}
@@ -39,5 +31,5 @@ class GalleryST extends Component {
             </div>
         );
     }}
-export default GalleryST;
+export default GalleryOA;
 

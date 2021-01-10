@@ -2,32 +2,24 @@ import React, { Component } from 'react';
 import ReactPlayer from 'react-player'
 
 class GalleryST extends Component {
-    constructor(props) {
-        super(props);
-        this.state = {
-            galleryIndex:0
-        };
-    }
-
     render() {
         return (
             <div className='player-wrapper'>
-                <h1 className="display-5">Signal Transduction Supplementary Asset Gallery</h1>
-                <h3>Signal Transduction: Primitive Shapes A</h3>
+                <p>Signal Transduction: Primitive Shapes A</p>
                 <img className='img-gallery'
                      src={`${process.env.PUBLIC_URL}/assets/st/st1.png`}
                      width='100%'
                      height='100%'
                      alt="st1.png"/>
 
-                <h3>Signal Transduction: Primitive Shapes B</h3>
+                <h2>Signal Transduction: Primitive Shapes B</h2>
                 <img className='img-gallery'
                      src={`${process.env.PUBLIC_URL}/assets/st/st2.png`}
                      width='100%'
                      height='100%'
                      alt="st2.png"/>
 
-                <h3>Signal Transduction: Primitive Shapes</h3>
+                <p>Signal Transduction: Primitive Shapes</p>
                 <ReactPlayer
                     className='react-player'
                     url={`${process.env.PUBLIC_URL}/assets/st/stPrimitiveLarger.mp4`}
@@ -42,7 +34,7 @@ class GalleryST extends Component {
                     onError={() => console.log('onError callback')}
                 />
 
-                <h3>Signal Transduction: Realistic Shapes</h3>
+                <p>Signal Transduction: Realistic Shapes</p>
                 <ReactPlayer
                     className='react-player'
                     // url='https://www.youtube.com/watch?v=ysz5S6PUM-U'

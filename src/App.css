@@ -13,7 +13,7 @@ html, body {
 
 .App-header {
   background-color: #282c34;
-  width: 45%;
+  width: 50%;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -33,7 +33,7 @@ html, body {
   position: relative;
   /*display: flex;*/
   background-color: white;
-  width: 70%;
+  width: 50%;
   max-height: 100vh;
   overflow: scroll;
 }

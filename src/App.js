@@ -17,8 +17,12 @@ class App extends Component {
                     </div>
                     <div className="Gallery">
                         <Nav />
-                        <GalleryST />
-                        <GalleryOA />
+                        <div className='container'>
+                            <Switch>
+                                <Route exact path='/GalleryST' component={GalleryST} />
+                                <Route exact path='/GalleryOA' component={GalleryOA} />
+                            </Switch>
+                        </div>
                     </div>
                 </div>
             </Router>

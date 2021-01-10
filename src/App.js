@@ -4,7 +4,7 @@ import './App.css';
 import Nav from './Components/Nav'
 import Header from './Components/Header'
 import GalleryST from './Components/GalleryST'
-import GalleryOA from './Components/GalleryOA'
+import GalleryCA from './Components/GalleryCA'
 
 
 class App extends Component {
@@ -19,8 +19,9 @@ class App extends Component {
                         <Nav />
                         <div className='container'>
                             <Switch>
+                                <Route exact path='/' component={GalleryST} />
                                 <Route exact path='/GalleryST' component={GalleryST} />
-                                <Route exact path='/GalleryOA' component={GalleryOA} />
+                                <Route exact path='/GalleryCA' component={GalleryCA} />
                             </Switch>
                         </div>
                     </div>

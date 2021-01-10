@@ -7,7 +7,12 @@ class GalleryCA extends Component {
             <div className='player-wrapper'>
                     <p>Content <span>&#169;</span> Laura Garrison. All rights reserved.</p>
                 <h3>Constitutive Activation: N</h3>
-                <ReactPlayer
+                    <img className='img-gallery'
+                         src={`${process.env.PUBLIC_URL}/assets/oa/oa10.gif`}
+                         width='100%'
+                         height='100%'
+                         alt="oa10.gif"/>
+                {/*<ReactPlayer
                     className='react-player'
                     url={`${process.env.PUBLIC_URL}/assets/oa/oaRealisticLarger.mp4`}
                     width='100%'
@@ -17,10 +22,15 @@ class GalleryCA extends Component {
                     onReady={() => console.log('onReady callback')}
                     onError={() => console.log('onError callback')}
                     alt="oaRealisticLarger.mp4"
-                />
+                />*/}
 
                 <h3>Constitutive Activation: M</h3>
-                <ReactPlayer
+                    <img className='img-gallery'
+                         src={`${process.env.PUBLIC_URL}/assets/oa/oa10.gif`}
+                         width='100%'
+                         height='100%'
+                         alt="oa10.gif"/>
+                {/*<ReactPlayer
                     className='react-player'
                     url={`${process.env.PUBLIC_URL}/assets/oa/oaPrimitiveLarger.mp4`}
                     width='100%'
@@ -33,7 +43,7 @@ class GalleryCA extends Component {
                     onEnded={() => console.log('onEnded callback')}
                     onError={() => console.log('onError callback')}
                     alt="oaPrimitiveLarger.mp4"
-                />
+                />*/}
                 <h3>Constitutive Activation: L</h3>
                 <img className='img-gallery'
                      src={`${process.env.PUBLIC_URL}/assets/oa/oa8.gif`}

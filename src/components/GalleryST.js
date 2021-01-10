@@ -7,7 +7,12 @@ class GalleryST extends Component {
             <div className='player-wrapper'>
                 <p>Content <span>&#169;</span> Laura Garrison. All rights reserved.</p>
                 <h3>Signal Transduction: N</h3>
-                <ReactPlayer
+                <img className='img-gallery'
+                     src={`${process.env.PUBLIC_URL}/assets/st/st10.gif`}
+                     width='100%'
+                     height='100%'
+                     alt="st10.gif"/>
+                {/*<ReactPlayer
                     className='react-player'
                     url={`${process.env.PUBLIC_URL}/assets/st/stRealisticLarger.mp4`}
                     width='100%'
@@ -17,10 +22,15 @@ class GalleryST extends Component {
                     onReady={() => console.log('onReady callback')}
                     onError={() => console.log('onError callback')}
                     alt="stRealisticLarger.mp4"
-                />
+                />*/}
 
                 <h3>Signal Transduction: M</h3>
-                <ReactPlayer
+                <img className='img-gallery'
+                     src={`${process.env.PUBLIC_URL}/assets/st/st9.gif`}
+                     width='100%'
+                     height='100%'
+                     alt="st9.gif"/>
+                {/*<ReactPlayer
                     className='react-player'
                     url={`${process.env.PUBLIC_URL}/assets/st/stPrimitiveLarger.mp4`}
                     width='100%'
@@ -33,7 +43,7 @@ class GalleryST extends Component {
                     onEnded={() => console.log('onEnded callback')}
                     onError={() => console.log('onError callback')}
                     alt="stPrimitiveLarger.mp4"
-                />
+                />*/}
                     <h3>Signal Transduction: L</h3>
                     <img className='img-gallery'
                          src={`${process.env.PUBLIC_URL}/assets/st/st8.gif`}

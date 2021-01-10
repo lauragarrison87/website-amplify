@@ -8,7 +8,7 @@ class GalleryST extends Component {
                 <p>Content <span>&#169;</span> Laura Garrison. All rights reserved.</p>
                 <h3>Signal Transduction: N</h3>
                 <img className='img-gallery'
-                     src={`${process.env.PUBLIC_URL}/assets/st/st10.gif`}
+                     src={`${process.env.PUBLIC_URL}/assets/st/stRealisticLarger.gif`}
                      width='100%'
                      height='100%'
                      alt="st10.gif"/>
@@ -26,7 +26,7 @@ class GalleryST extends Component {
 
                 <h3>Signal Transduction: M</h3>
                 <img className='img-gallery'
-                     src={`${process.env.PUBLIC_URL}/assets/st/st9.gif`}
+                     src={`${process.env.PUBLIC_URL}/assets/st/stPrimitiveLarger.gif`}
                      width='100%'
                      height='100%'
                      alt="st9.gif"/>

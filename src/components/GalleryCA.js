@@ -8,7 +8,7 @@ class GalleryCA extends Component {
                     <p>Content <span>&#169;</span> Laura Garrison. All rights reserved.</p>
                 <h3>Constitutive Activation: N</h3>
                     <img className='img-gallery'
-                         src={`${process.env.PUBLIC_URL}/assets/oa/oa10.gif`}
+                         src={`${process.env.PUBLIC_URL}/assets/oa/oaRealisticLarger.gif`}
                          width='100%'
                          height='100%'
                          alt="oa10.gif"/>
@@ -26,10 +26,10 @@ class GalleryCA extends Component {
 
                 <h3>Constitutive Activation: M</h3>
                     <img className='img-gallery'
-                         src={`${process.env.PUBLIC_URL}/assets/oa/oa10.gif`}
+                         src={`${process.env.PUBLIC_URL}/assets/oa/oaPrimitiveLarger.gif`}
                          width='100%'
                          height='100%'
-                         alt="oa10.gif"/>
+                         alt="oa9.gif"/>
                 {/*<ReactPlayer
                     className='react-player'
                     url={`${process.env.PUBLIC_URL}/assets/oa/oaPrimitiveLarger.mp4`}

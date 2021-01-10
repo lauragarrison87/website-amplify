@@ -38,6 +38,10 @@ html, body {
   overflow: scroll;
 }
 
+.GalleryNav {
+  padding: 1%;
+}
+
 .player-wrapper {
   position: relative;
   padding: 3% 2% 2% 2%;

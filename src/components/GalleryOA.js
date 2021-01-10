@@ -2,10 +2,16 @@ import React, { Component } from 'react';
 import ReactPlayer from 'react-player'
 
 class GalleryST extends Component {
+    constructor() {
+        super();
+        this.state = {
+            name:"React"
+        };
+    }
     render() {
         return (
             <div className='player-wrapper'>
-                <h2>Constitutive Activation Supplementary Asset Gallery</h2>
+                <h1 className="display-5">Constitutive Activation Supplementary Asset Gallery</h1>
 
                 <h3>Constitutive Activation: Primitive Shapes</h3>
                 <ReactPlayer

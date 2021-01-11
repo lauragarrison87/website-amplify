@@ -10,7 +10,29 @@ class App extends Component {
     render() {
     return (
             <Router>
-                <div className="App">
+                <div className="container-fluid">
+                    <div className="row">
+                        <div className="col-xs-12 col-md-8 App-header">
+                            <Header />
+                        </div>
+                        <div className="col-xs-6 col-md-4 Gallery">
+                                <Nav />
+                                <div className='container-fluid'>
+                                    <Switch>
+                                        <Route exact path='/' component={GalleryST} />
+                                        <Route exact path='/GalleryST' component={GalleryST} />
+                                        <Route exact path='/GalleryCA' component={GalleryCA} />
+                                    </Switch>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+            </Router>
+    );
+    }}export default App;
+
+/* ORIGINAL */
+                /*<div className="App">
                     <div className="App-header">
                         <Header />
                     </div>
@@ -24,8 +46,6 @@ class App extends Component {
                             </Switch>
                         </div>
                     </div>
-                </div>
-            </Router>
-        );
-}}
-export default App;
+                </div>*/
+
+

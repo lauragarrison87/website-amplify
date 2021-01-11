@@ -13,47 +13,49 @@ html, body {
 
 .App-header {
   background-color: #282c34;
+
+}
+
+.Header {
+  /*background-color: aquamarine;*/
   width: 50%;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  /*align-items: center;*/
   justify-content: center;
   /*font-size: calc(10px + 2vmin);*/
   color: white;
   padding: 5%;
 }
 
-.Header {
-  /*background-color: aquamarine;*/
-}
-
 .Gallery {
-  position: relative;
-  /*display: flex;*/
   background-color: white;
+  position: absolute;
+  right: 0;
   width: 50%;
+  max-width: 600px;
   max-height: 100vh;
   overflow: scroll;
+  /*display: flex;*/
+
 }
 
-.GalleryNav {
-  padding: 1%;
+.gallery-wrapper {
+  position: relative;
+  padding: 3% 4% 1% 4%;
 }
 
-.player-wrapper {
+.img-gallery-item {
   position: relative;
-  padding: 3% 2% 2% 2%;
-}
-.img-gallery {
-  position: relative;
-  padding: 2% 2% 4% 2%;
+  padding-bottom: 5%;
   top: 0;
   left: 0;
 }
-.react-player {
+
+.react-player-item {
   position: relative;
-  padding: 2%;
+  padding-bottom: 5%;
   top: 0;
   left: 0;
 }

@@ -12,18 +12,17 @@ class App extends Component {
             <Router>
                 <div className="container-fluid">
                     <div className="row">
-                        <div className="col-xs-12 col-md-8 App-header">
+                        <div className="col-md-6 App-header">
                             <Header />
                         </div>
-                        <div className="col-xs-6 col-md-4 Gallery container-fluid">
+                        <div className="col-md-6 Gallery container-fluid">
                                 <Nav />
-                                {/*<div className='container'>*/}
-                                    <Switch>
-                                        <Route exact path='/' component={GalleryST} />
-                                        <Route exact path='/GalleryST' component={GalleryST} />
-                                        <Route exact path='/GalleryCA' component={GalleryCA} />
-                                    </Switch>
-                                {/*</div>*/}
+
+                                <Switch>
+                                    <Route exact path='/' component={GalleryST} />
+                                    <Route exact path='/GalleryST' component={GalleryST} />
+                                    <Route exact path='/GalleryCA' component={GalleryCA} />
+                                </Switch>
                             </div>
                     </div>
                 </div>

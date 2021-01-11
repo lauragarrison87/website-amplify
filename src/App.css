@@ -1,14 +1,14 @@
 html, body {
-  /*height: 100%;*/
+  height: 100%;
   margin: 0;
   /*overflow-y: hidden;*/
 }
 
-.App {
+/*.App {
   display: flex;
-  /*text-align: center;*/
-  /*justify-content: center;*/
-}
+  !*text-align: center;*!
+  !*justify-content: center;*!
+}*/
 
 .App-header {
   background-color: #282c34;
@@ -35,14 +35,15 @@ html, body {
   right: 0;
   max-width: 600px;
   overflow: scroll;
+  max-height: 100vh;
   /*width: 50%;*/
-  /*max-height: 100vh;*/
 
 }
 
 .gallery-wrapper {
   position: relative;
   padding: 3% 4% 1% 4%;
+  justify-content: center;
 }
 
 .img-gallery-item {

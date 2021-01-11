@@ -15,15 +15,15 @@ class App extends Component {
                         <div className="col-xs-12 col-md-8 App-header">
                             <Header />
                         </div>
-                        <div className="col-xs-6 col-md-4 Gallery">
+                        <div className="col-xs-6 col-md-4 Gallery container-fluid">
                                 <Nav />
-                                <div className='container-fluid'>
+                                {/*<div className='container'>*/}
                                     <Switch>
                                         <Route exact path='/' component={GalleryST} />
                                         <Route exact path='/GalleryST' component={GalleryST} />
                                         <Route exact path='/GalleryCA' component={GalleryCA} />
                                     </Switch>
-                                </div>
+                                {/*</div>*/}
                             </div>
                     </div>
                 </div>

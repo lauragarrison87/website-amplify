@@ -16,7 +16,7 @@ class Header extends Component {
                 <br/>
                 <h2>How do we spatially visualize different biomedical processes? What works, and what doesn't?</h2>
                 <br/>
-                <p>This is a companion page to our ongoing research exploring ways to <strong>more effectively communicate complex concepts in physiology and other biomedical processes</strong>. Explore larger/higher resolution gallery images to the right.</p>
+                <p>This is a companion site to our ongoing research exploring ways to <strong>more effectively communicate complex concepts in physiology and other biomedical processes</strong>. Explore larger/higher resolution gallery images to the right.</p>
                 <br/>
                 <p>
                     <em>Interested in participating in our survey? </em>

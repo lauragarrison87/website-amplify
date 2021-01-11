@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import ReactPlayer from 'react-player'
+// import ReactPlayer from 'react-player'
 
 class GalleryST extends Component {
     render() {

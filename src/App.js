@@ -4,7 +4,8 @@ import './App.css';
 import Nav from './components/Nav';
 import Header from './components/Header';
 import GalleryST from './components/GalleryST';
-import GalleryCA from './components/GalleryCA'
+import GalleryCA from './components/GalleryCA';
+import Microscale from "./components/Microscale";
 
 class App extends Component {
     render() {
@@ -15,15 +16,14 @@ class App extends Component {
                         <div className="col-md-6 App-header">
                             <Header />
                         </div>
-                        <div className="col-md-6 Gallery container-fluid">
-                                <Nav />
-
-                                <Switch>
-                                    <Route exact path='/' component={GalleryST} />
-                                    <Route exact path='/GalleryST' component={GalleryST} />
-                                    <Route exact path='/GalleryCA' component={GalleryCA} />
-                                </Switch>
-                            </div>
+                        <div className="col-md-6 container-fluid Gallery">
+                            <Nav />
+                            <Switch>
+                                <Route exact path='/' component={Microscale} />
+                                <Route exact path='/GalleryST' component={GalleryST} />
+                                <Route exact path='/GalleryCA' component={GalleryCA} />
+                            </Switch>
+                        </div>
                     </div>
                 </div>
             </Router>

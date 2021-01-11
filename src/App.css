@@ -1,21 +1,18 @@
 html, body {
   height: 100%;
   margin: 0;
+  background-color: #282c34;
   /*overflow-y: hidden;*/
 }
 
-/*.App {
-  display: flex;
-  !*text-align: center;*!
-  !*justify-content: center;*!
-}*/
-
 .App-header {
-  background-color: #282c34;
+  max-height: 100vh;
   /*display: flex;*/
 }
 
 .Header {
+  color: white;
+  padding: 5%;
   /*background-color: aquamarine;*/
   /*align-items: center;*/
   /*font-size: calc(10px + 2vmin);*/
@@ -25,25 +22,24 @@ html, body {
   display: flex;
   flex-direction: column;
   justify-content: center;*/
-  color: white;
-  padding: 5%;
 }
 
 .Gallery {
   background-color: white;
   position: relative;
   right: 0;
-  max-width: 600px;
+  /*max-width: 600px;*/
   overflow: scroll;
-  max-height: 100vh;
-  /*width: 50%;*/
+  height: 100vh;
 
 }
 
 .gallery-wrapper {
   position: relative;
   padding: 3% 4% 1% 4%;
-  justify-content: center;
+  max-width: 600px;
+  margin: auto;
+
 }
 
 .img-gallery-item {
@@ -60,12 +56,14 @@ html, body {
   left: 0;
 }
 
-.text-fix {
-  color: dimgrey;
-}
-
 /*---------STUFF I'M NOT USING BUT AM SCARED TO DELETE-----------*/
 /*
+.App {
+  display: flex;
+  !*text-align: center;*!
+  !*justify-content: center;*!
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;

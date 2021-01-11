@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-// import ReactPlayer from 'react-player'
+import ReactPlayer from 'react-player'
 
 class GalleryST extends Component {
     render() {
@@ -7,43 +7,45 @@ class GalleryST extends Component {
             <div className='gallery-wrapper'>
                 <p>Content <span>&#169;</span> Laura Garrison. All rights reserved.</p>
                 <h3>Signal Transduction: N</h3>
-                <img className='img-gallery-item'
+                {/*<img className='img-gallery-item'
                      src={`${process.env.PUBLIC_URL}/assets/st/stRealisticLarger.gif`}
                      width='100%'
                      height='100%'
-                     alt="st10.gif"/>
-                {/*<ReactPlayer
+                     alt="st10.gif"/>*/}
+                <ReactPlayer
                     className='react-player-item'
-                    url={`${process.env.PUBLIC_URL}/assets/st/stRealisticLarger.mp4`}
+                    url='https://laura-uib.s3.eu-north-1.amazonaws.com/stRealisticLarger.mp4'
                     width='100%'
                     height='100%'
                     controls={true}
                     loop={true}
+                    playing={true}
                     onReady={() => console.log('onReady callback')}
                     onError={() => console.log('onError callback')}
                     alt="stRealisticLarger.mp4"
-                />*/}
+                />
 
                 <h3>Signal Transduction: M</h3>
-                <img className='img-gallery-item'
+                {/*<img className='img-gallery-item'
                      src={`${process.env.PUBLIC_URL}/assets/st/stPrimitiveLarger.gif`}
                      width='100%'
                      height='100%'
-                     alt="st9.gif"/>
-                {/*<ReactPlayer
+                     alt="st9.gif"/>*/}
+                <ReactPlayer
                     className='react-player-item'
-                    url={`${process.env.PUBLIC_URL}/assets/st/stPrimitiveLarger.mp4`}
+                    url='https://laura-uib.s3.eu-north-1.amazonaws.com/stPrimitiveLarger.mp4'
                     width='100%'
                     height='100%'
                     controls={true}
                     loop={true}
+                    playing={true}
                     onReady={() => console.log('onReady callback')}
                     onStart={() => console.log('onStart callback')}
                     onPause={() => console.log('onPause callback')}
                     onEnded={() => console.log('onEnded callback')}
                     onError={() => console.log('onError callback')}
                     alt="stPrimitiveLarger.mp4"
-                />*/}
+                />
                     <h3>Signal Transduction: L</h3>
                     <img className='img-gallery-item'
                          src={`${process.env.PUBLIC_URL}/assets/st/st8.gif`}

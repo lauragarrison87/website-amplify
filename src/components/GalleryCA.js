@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-// import ReactPlayer from 'react-player'
+import ReactPlayer from 'react-player'
 
 class GalleryCA extends Component {
     render() {
@@ -7,43 +7,45 @@ class GalleryCA extends Component {
             <div className='gallery-wrapper'>
                     <p>Content <span>&#169;</span> Laura Garrison. All rights reserved.</p>
                 <h3>Constitutive Activation: N</h3>
-                    <img className='img-gallery-item'
+                    {/*<img className='img-gallery-item'
                          src={`${process.env.PUBLIC_URL}/assets/oa/oaRealisticLarger.gif`}
                          width='100%'
                          height='100%'
-                         alt="oa10.gif"/>
-                {/*<ReactPlayer
+                         alt="oa10.gif"/>*/}
+                <ReactPlayer
                     className='react-player-item'
-                    url={`${process.env.PUBLIC_URL}/assets/oa/oaRealisticLarger.mp4`}
+                    url='https://laura-uib.s3.eu-north-1.amazonaws.com/oaRealisticLarger.mp4'
                     width='100%'
                     height='100%'
                     controls={true}
                     loop={true}
+                    playing={true}
                     onReady={() => console.log('onReady callback')}
                     onError={() => console.log('onError callback')}
                     alt="oaRealisticLarger.mp4"
-                />*/}
+                />
 
                 <h3>Constitutive Activation: M</h3>
-                    <img className='img-gallery-item'
+                    {/*<img className='img-gallery-item'
                          src={`${process.env.PUBLIC_URL}/assets/oa/oaPrimitiveLarger.gif`}
                          width='100%'
                          height='100%'
-                         alt="oa9.gif"/>
-                {/*<ReactPlayer
+                         alt="oa9.gif"/>*/}
+                <ReactPlayer
                     className='react-player-item'
-                    url={`${process.env.PUBLIC_URL}/assets/oa/oaPrimitiveLarger.mp4`}
+                    url='https://laura-uib.s3.eu-north-1.amazonaws.com/oaPrimitiveLarger.mp4'
                     width='100%'
                     height='100%'
                     controls={true}
                     loop={true}
+                    playing={true}
                     onReady={() => console.log('onReady callback')}
                     onStart={() => console.log('onStart callback')}
                     onPause={() => console.log('onPause callback')}
                     onEnded={() => console.log('onEnded callback')}
                     onError={() => console.log('onError callback')}
                     alt="oaPrimitiveLarger.mp4"
-                />*/}
+                />
                 <h3>Constitutive Activation: L</h3>
                 <img className='img-gallery-item'
                      src={`${process.env.PUBLIC_URL}/assets/oa/oa8.gif`}

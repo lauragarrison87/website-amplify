@@ -10,14 +10,14 @@ class Microscale extends Component {
                     Microscale Asset Galleries
                 </h2>
                 <div className="row">
-                    <div className="col-md-6">
+                    <div className="col-md-6 img-gallery-item">
                         <Link to='/GalleryST'>Signal Transduction</Link>
                         <img className='img-thumbnail'
                              src={`${process.env.PUBLIC_URL}/assets/st/stRealisticLarger.gif`}
                              alt="st10.gif"
                         />
                     </div>
-                    <div className="col-md-6">
+                    <div className="col-md-6 img-gallery-item">
                         <Link to='/GalleryCA'>Constitutive Activation</Link>
                         <img className='img-thumbnail'
                              src={`${process.env.PUBLIC_URL}/assets/oa/oaRealisticLarger.gif`}

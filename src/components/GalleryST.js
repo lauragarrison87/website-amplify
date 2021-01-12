@@ -5,7 +5,8 @@ class GalleryST extends Component {
     render() {
         return (
             <div className='gallery-wrapper'>
-                <p>Content <span>&#169;</span> Laura Garrison. All rights reserved.</p>
+                <p>All Content protected by <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/"  target = "_blank" rel = "noopener noreferrer">Creative Commons Non-Commercial Share Alike License</a>. Use, share, or adapt these assets for research/non-commercial purposes with attribution to Laura Garrison.</p>
+                {/*<p>Content <span>&#169;</span> Laura Garrison. All rights reserved.</p>*/}
                 <h3>Signal Transduction: N</h3>
                 {/*<img className='img-gallery-item'
                      src={`${process.env.PUBLIC_URL}/assets/st/stRealisticLarger.gif`}

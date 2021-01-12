@@ -13,7 +13,7 @@ class App extends Component {
             <Router>
                 <div className="container-fluid">
                     <div className="row">
-                        <div className="col-md-6 App-header">
+                        <div className="col-md-6">
                             <Header />
                         </div>
                         <div className="col-md-6 container-fluid Gallery">

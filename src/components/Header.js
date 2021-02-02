@@ -22,6 +22,7 @@ class Header extends Component {
                     <em>Interested in participating in our survey? </em>
                     How do you visualize the spread of cancer to other organs (metastasis)?
                     How about the ways that we visualize signalling in cells, and what happens when this process goes awry?
+                    What visual strategies make sense for showing blood flow? For an aneurysm?
                 </p>
                 <p>
                     Email <strong>laura.garrison [at] uib.no</strong> to join in - we appreciate your thoughts and feedback!

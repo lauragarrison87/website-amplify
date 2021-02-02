@@ -5,6 +5,8 @@ import Nav from './components/Nav';
 import Header from './components/Header';
 import GalleryST from './components/GalleryST';
 import GalleryCA from './components/GalleryCA';
+import GalleryBF from './components/GalleryBF';
+import GalleryAneurysm from './components/GalleryAneurysm';
 import GalleryMetastasis from "./components/GalleryMetastasis";
 import GalleryHome from "./components/GalleryHome";
 
@@ -21,9 +23,11 @@ class App extends Component {
                             <Nav />
                             <Switch>
                                 <Route exact path='/' component={GalleryHome} />
+                                <Route exact path='/GalleryMetastasis' component={GalleryMetastasis} />
                                 <Route exact path='/GalleryST' component={GalleryST} />
                                 <Route exact path='/GalleryCA' component={GalleryCA} />
-                                <Route exact path='/GalleryMetastasis' component={GalleryMetastasis} />
+                                <Route exact path='/GalleryBF' component={GalleryBF} />
+                                <Route exact path='/GalleryAneurysm' component={GalleryAneurysm} />
                             </Switch>
                         </div>
                     </div>

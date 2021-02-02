@@ -18,7 +18,7 @@ class Nav extends Component {
                 </Navbar.Collapse>
             </Navbar>*/
 
-            <nav className="navbar sticky-top navbar-expand-lg bg-light">
+            <nav className="nav navbar sticky-top bg-light justify-content-end">
                 <div className="container-fluid">
                     <div className="navbar-brand mb-0 h1">
                         <Link to='/'>Asset Gallery</Link>
@@ -29,11 +29,17 @@ class Nav extends Component {
                             <li className="nav-item nav-link">
                                 <Link to='/GalleryMetastasis'>Metastasis</Link>
                             </li>
-                            <li className="nav-item nav-link active">
+                            <li className="nav-item nav-link">
                                 <Link to='/GalleryST'>Signal Transduction</Link>
                             </li>
                             <li className="nav-item nav-link">
                                 <Link to='/GalleryCA'>Constitutive Activation</Link>
+                            </li>
+                            <li className="nav-item nav-link">
+                                <Link to='/GalleryBF'>Blood Flow</Link>
+                            </li>
+                            <li className="nav-item nav-link">
+                                <Link to='/GalleryAneurysm'>Aneurysm</Link>
                             </li>
                         </ul>
                     </div>

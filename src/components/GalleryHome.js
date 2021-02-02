@@ -6,9 +6,15 @@ class GalleryHome extends Component {
         return (
             <div className="gallery-wrapper">
                 <br/>
-                <h2>
-                    Microscale Asset Galleries
-                </h2>
+                <div className="row">
+                    <div className="col-md-6 img-gallery-item">
+                        <Link to='/GalleryMetastasis'>Metastasis</Link>
+                        <img className='img-thumbnail'
+                             src={`${process.env.PUBLIC_URL}/assets/metastasis/metastasis_l-325.gif`}
+                             alt="metastasis_l-325.gif"
+                        />
+                    </div>
+                </div>
                 <div className="row">
                     <div className="col-md-6 img-gallery-item">
                         <Link to='/GalleryST'>Signal Transduction</Link>

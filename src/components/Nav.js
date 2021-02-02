@@ -26,14 +26,14 @@ class Nav extends Component {
 
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li className="nav-item nav-link">
+                                <Link to='/GalleryMetastasis'>Metastasis</Link>
+                            </li>
                             <li className="nav-item nav-link active">
                                 <Link to='/GalleryST'>Signal Transduction</Link>
                             </li>
                             <li className="nav-item nav-link">
                                 <Link to='/GalleryCA'>Constitutive Activation</Link>
-                            </li>
-                            <li className="nav-item nav-link">
-                                <Link to='/GalleryMetastasis'>Metastasis</Link>
                             </li>
                         </ul>
                     </div>

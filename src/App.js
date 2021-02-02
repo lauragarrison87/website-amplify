@@ -5,7 +5,8 @@ import Nav from './components/Nav';
 import Header from './components/Header';
 import GalleryST from './components/GalleryST';
 import GalleryCA from './components/GalleryCA';
-import Microscale from "./components/Microscale";
+import GalleryMetastasis from "./components/GalleryMetastasis";
+import GalleryHome from "./components/GalleryHome";
 
 class App extends Component {
     render() {
@@ -19,9 +20,10 @@ class App extends Component {
                         <div className="col-md-6 container-fluid Gallery">
                             <Nav />
                             <Switch>
-                                <Route exact path='/' component={Microscale} />
+                                <Route exact path='/' component={GalleryHome} />
                                 <Route exact path='/GalleryST' component={GalleryST} />
                                 <Route exact path='/GalleryCA' component={GalleryCA} />
+                                <Route exact path='/GalleryMetastasis' component={GalleryMetastasis} />
                             </Switch>
                         </div>
                     </div>

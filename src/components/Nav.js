@@ -32,6 +32,9 @@ class Nav extends Component {
                             <li className="nav-item nav-link">
                                 <Link to='/GalleryCA'>Constitutive Activation</Link>
                             </li>
+                            <li className="nav-item nav-link">
+                                <Link to='/GalleryMetastasis'>Metastasis</Link>
+                            </li>
                         </ul>
                     </div>
                 </div>

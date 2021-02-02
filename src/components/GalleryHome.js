@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import {Link} from "react-router-dom";
 
-class Microscale extends Component {
+class GalleryHome extends Component {
     render() {
         return (
             <div className="gallery-wrapper">
@@ -28,4 +28,4 @@ class Microscale extends Component {
         );
     }
 }
-export default Microscale;
+export default GalleryHome;

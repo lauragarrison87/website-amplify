@@ -3,7 +3,7 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import './App.css';
 import Nav from './components/Nav';
-import Header from './components/Header';
+import Left from './components/Left';
 import GalleryST from './components/GalleryST';
 import GalleryCA from './components/GalleryCA';
 import GalleryBF from './components/GalleryBF';
@@ -17,7 +17,7 @@ const App=()=>
         <div className="container-fluid">
             <div className="row">
                 <div className="col-md-6">
-                    <Header />
+                    <Left />
                 </div>
                 <div className="col-md-6 container-fluid Gallery">
                     <Nav />

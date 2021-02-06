@@ -1,23 +1,8 @@
 import React from 'react';
-// import Navbar from 'react-bootstrap/Navbar';
 import { Link } from 'react-router-dom'
 
 const Nav=()=>
 {
-
-/*            <Navbar bg="light" expand="lg">
-                <Navbar.Brand href="/">Asset Gallery</Navbar.Brand>
-                <Navbar.Toggle aria-controls="basic-navbar-nav" />
-                <Navbar.Collapse id="basic-navbar-nav">
-                    <Nav className="mr-auto">
-                        {/!*<Nav.Link to='/GalleryST'>Signal Transduction</Nav.Link>
-                        <Nav.Link to='/GalleryCA'>Constitutive Activation</Nav.Link>*!/}
-                        <Link to='/GalleryST'>Signal Transduction</Link>
-                        <Link to='/GalleryCA'>Constitutive Activation</Link>
-                    </Nav>
-                </Navbar.Collapse>
-            </Navbar>*/
-
     return <nav className="nav navbar sticky-top bg-light justify-content-end">
                 <div className="container-fluid">
                     <div className="navbar-brand mb-0 h1">

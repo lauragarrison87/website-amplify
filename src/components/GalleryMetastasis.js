@@ -1,9 +1,8 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-class GalleryMetastasis extends Component {
-    render() {
-        return (
-            <div className='gallery-wrapper'>
+const GalleryMetastasis=()=>
+{
+        return <div className='gallery-wrapper'>
                 <p>All Content protected by <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/"  target = "_blank" rel = "noopener noreferrer">Creative Commons Non-Commercial Share Alike License</a>. Use, share, or adapt these assets for research/non-commercial purposes with attribution to Laura Garrison.</p>
 
                 <h3>Metastasis: A</h3>
@@ -140,7 +139,6 @@ class GalleryMetastasis extends Component {
                      height='100%'
                      alt="st1.png"/>
             </div>
-        );
-    }}
+}
 export default GalleryMetastasis;
 

@@ -1,10 +1,9 @@
-import React, { Component } from 'react';
+import React from 'react';
 import {Link} from "react-router-dom";
 
-class GalleryHome extends Component {
-    render() {
-        return (
-            <div className="gallery-wrapper">
+const GalleryHome=()=>
+{
+    return <div className="gallery-wrapper">
                 <br/>
                 <div className="row">
                     <div className="col-md-6 img-gallery-item">
@@ -47,7 +46,5 @@ class GalleryHome extends Component {
                     </div>
                 </div>
             </div>
-        );
     }
-}
 export default GalleryHome;

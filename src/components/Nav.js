@@ -1,10 +1,10 @@
-import React, { Component } from 'react';
+import React from 'react';
 // import Navbar from 'react-bootstrap/Navbar';
 import { Link } from 'react-router-dom'
 
-class Nav extends Component {
-    render() {
-        return(
+const Nav=()=>
+{
+
 /*            <Navbar bg="light" expand="lg">
                 <Navbar.Brand href="/">Asset Gallery</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -18,7 +18,7 @@ class Nav extends Component {
                 </Navbar.Collapse>
             </Navbar>*/
 
-            <nav className="nav navbar sticky-top bg-light justify-content-end">
+    return <nav className="nav navbar sticky-top bg-light justify-content-end">
                 <div className="container-fluid">
                     <div className="navbar-brand mb-0 h1">
                         <Link to='/'>Asset Gallery</Link>
@@ -45,8 +45,6 @@ class Nav extends Component {
                     </div>
                 </div>
             </nav>
-        )
-    }
 }
 export default Nav
 

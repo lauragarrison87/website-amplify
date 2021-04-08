@@ -3,7 +3,7 @@
     "name":"Laura Garrison",
     "occupation":"Visualization Researcher and Designer",
     "description":"I research and design visual solutions to complex problems in science,\nparticularly biology and medicine",
-    "image":"profilepic.jpg",
+    "image":"images/profilepic.jpg",
     "bio":"I am a trained biomedical artist and designer, first as a production artist and then as a content director and project manager in US-based medical education start-ups. In doing this I became more interested in how we specifically can leverage technology to improve health literacy at multiple levels, from visual data analysis to visual communication for education and outreach. I am now a PhD researcher under the supervision of Stefan Bruckner in the visualization group in the Department of Informatics at the University of Bergen in Norway. I'm particularly interested in exploring methods in UI/UX design to help people understand complex processes in biology and medicine.",
     "contactmessage":"",
     "email": "laura.garrison [at] uib.no",
@@ -96,28 +96,28 @@
         "title":"DimLift",
         "category":"UI/UX design research, visual data analysis",
         "brief": "Collaborative project with the MedDigit Group at the University of Magdeburg, Germany (first author). DimLift is a novel design and interaction method using a modified dimensionality reduction technique (iteractive factor analysis of mixed data, FAMD) for visual exploration of data with many variables. This tool is designed for domain experts to rapidly identify correlated variables via so-called dimensional bundles, and reduce the analysis space. It acts as a supplementary tool to popular analysis tools already in clinical use, such as SPSS. Developed mainly with D3.js frontend and R/Python backend--click the image for more details on the project. Published in Transactions on Visualization and Computer Graphics (2021). ",
-        "image":"garrison_dimlift.jpg",
+        "image":"images/portfolio/garrison_dimlift.jpg",
         "url":"https://github.com/lauragarrison87/DimLift"
       },
       {
         "title":"SpectraMosaic",
         "category":"UI/UX design research, visual data analysis",
         "brief": "A tool for interactive visual exploration of magnetic resonance spectroscopy (MRS) data. A single MRS acquisition contains a few dozen metabolites (biochemicals needed to sustain life) that can act as early indicators of pathology, e.g., brain cancer, low oxygen. Our collaborators were spectroscopy experts who wanted a clear visual method to allow them to quickly discover new, possibly interesting, metabolite relations in their data for an individual or for a group of subjects. Developed mainly with p5.js for a Master's thesis (Jakub Vašíček)--click the image to go to the open-source article for additional information. Published in Computers & Graphics (2020).",
-        "image":"spectramosaic-splash-slide.png",
+        "image":"images/portfolio/spectramosaic-splash-slide.png",
         "url":"https://www.sciencedirect.com/science/article/pii/S0097849320301199"
       },
       {
         "title":"Integrated dual analysis of quantitative and qualitative high-dimensional data",
         "category":"UI/UX design research, visual data analysis",
         "brief": "Collaborative project with the MedDigit Group at the University of Magdeburg, Germany (second author). Clinical data tend to be quite complex with numerous missing data elements and variables that are continuous (quantitative), free form, and categorical (qualitative). This work explores qualitative descriptive statistics that can be integrated to quantitative statistics for iterative visual exploration of a mixed-type dataset at two levels: item level, and dimension (variable) level. It acts as a supplementary tool to popular analysis tools already in clinical use, such as SPSS. Developed mainly with D3.js frontend and R/Python backend--click the image for more details on the project. Published in Transactions on Visualization and Computer Graphics (2021). ",
-        "image":"muller-ida.png",
+        "image":"images/portfolio/muller-ida.png",
         "url":"https://github.com/JulianeMu/IntegratedDualAnalysisAproach_MDA"
       },
       {
         "title":"Evaluating Biomedical Process Visualizations for Communication",
         "category":"Empirical study, design thinking, biomedical visualization",
         "brief": "**In progress** This study combines techniques in visualization and biomedical illustration to understand the factors that contribute to expert and lay audience evaluations of visual assets designed to communicate a given biomedical process.",
-        "image":"survey.png",
+        "image":"images/portfolio/survey.png",
         "url":"https://laura-garrison.com"
       }
     ]

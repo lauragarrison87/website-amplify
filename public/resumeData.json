@@ -16,7 +16,7 @@
       "country": "Norway"
     },
     "website": "https://www.laura-garrison.com",
-    "resumedownload":"Garrison-CV-apr2021.pdf",
+    "resumedownload":"https://laura-uib.s3.eu-north-1.amazonaws.com/Garrison-CV-apr2021.pdf",
     "social":[
       {
         "name":"twitter",

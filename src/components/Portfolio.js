@@ -31,7 +31,8 @@ class Portfolio extends Component {
 
          <div className="twelve columns collapsed">
 
-            <h1>Selected Work. If you are unable to access or would like more information, just let me know.</h1>
+            <h1>Selected Projects</h1>
+             <p>**If you are unable to access any of the below links, or would like more information, please reach out!</p>
 
             <div id="portfolio-wrapper" className="bgrid-halves s-bgrid-halves cf">
                 {projects}

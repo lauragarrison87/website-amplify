@@ -774,6 +774,9 @@ properly.
 /*  1. Clearing
     (http://nicolasgallagher.com/micro-clearfix-hack/
 --------------------------------------------------------------------- */
+.new-line {
+    white-space: pre-line;
+}
 
 .cf:before,
 .cf:after {

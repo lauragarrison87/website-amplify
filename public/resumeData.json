@@ -62,31 +62,31 @@
         "company":"University of Bergen, Norway",
         "title":"Visualization researcher",
         "years":"2018 - current",
-        "description":"Researcher (PhD candidate) in the Visual Data Science for Large Scale Hypothesis Management in Imaging Biomarker Discovery (VIDI) Project. Employed through University of Bergen and the Mohn Medical Imaging and Visualization (MMIV) Centre. Includes 25% administrative and teaching-related duties for INF 100 (Introduction to Programming), INF 101 (Object-oriented programming), and INF 102 (Algorithms)."
+        "description":"My research focuses on developing new and more efficient techniques, based on UI/UX design and research principles, to analyze and visualize biomedical data. My end goal is to create tools that make this complex information easier to communicate and understand for both scientists and the general public. Funded Visual Data Science for Large Scale Hypothesis Management in Imaging Biomarker Discovery (VIDI) Project. Highlights include: (+) Published and presented internationally collaborative research in top visualization journals (Transactions on Visualization and Computer Graphics, Computers & Graphics) and awarded Best Poster at 2019 EuroVis Conference. (+) Invited speaker to BioMedSpring 2021 with an international panel of speakers to educate early career medical visualization scientists. (+) Supervised one master’s student thesis project that led to an international conference presentation and journal publication (SpectraMosaic) and one bachelor-level group semester project (Chronic pain logging web application based on the McGill Pain Questionnaire). (+) Administrative and teaching-related duties for INF 100 (Introduction to Programming), INF 101 (Object-oriented programming), and INF 102 (Algorithms)"
       },
       {
         "company":"BioDigital, New York, NY",
         "title":"Scientific Technical Director",
         "years":"2016 - 18",
-        "description":"Led and managed the scientific team for the development of novel, interactive 3D experiences for the web. Interfaced with clients and developed content style guide for stories at BioDigital."
+        "description":"BioDigital is an interactive 3D software platform for visualizing human anatomy, disease, and treatment. Highlights of my time at BioDigital include: (+) Worked with the executive team to develop and manage the roadmap and best practices for content creation, management, and organization in the BioDigital Human. (+) Supervised the science team and oversaw the scientific and anatomical accuracy of the BioDigital online virtual human body platform. (3) Met with clients and worked with the content and engineering teams to develop scalable interactive 3D experiences that met the clients’ communication needs while supporting the major initiative to grow BioDigital’s internal content library. (+) Was part of an interdisciplinary team from academics and industry that was a finalist for the NIH HuBMAP grant. (+) Co-presented the BioDigital Human at the 2018 VIZBI Poster session"
       },
       {
         "company":"i-Human Patients, Sunnyvale, CA",
         "title":"Director of Medical Media",
         "years":"2013 - 15",
-        "description":"Managed the acquisition, creation, and management of medical and scientific imagery from variety of data sources for use in virtual patient case scenarios."
+        "description":"i-Human Patients, Inc. creates comprehensive simulated patient encounters for medical students and practicing medical professionals that provide unparalleled immersion in the learning environment. i-Human Patient case scenarios help users develop critical clinical skills and diagnostic accuracy while providing an effective tool for educators to evaluate individual and group competencies. Highlights of my time at i-Human include: (+) Oversaw creation, acquisition, and management of all media used in i-Human Patient products, including the production of virtual patient avatars and anatomically accurate illustrations. In this role I worked closely with other departments to quickly address media-driven bottlenecks for a diverse set of production deliverables. (+) Led the development with a distributed team comprising content specialists, engineers, and outside contractors of a systematically organized media library, incorporating over 4,000 media, including audio, video, illustrations, and radiographs, all with differing viewing requirements. (+) Oversaw corporate website, assisted with UI design of flagship products, and created marketing and communication materials for trade shows and conferences. (+) Traveled for key trade show and client meetings."
       },
       {
         "company":"Emmi Solutions, Chicago, IL",
         "title":"Production Artist",
         "years":"2013 - 14",
-        "description":"Member of production art team to build visual stories for patient education modules in Adobe Flash."
+        "description":"Emmi Solutions is a healthcare communications company focused on empowering the patient to be more active in their healthcare decisions. Highlights of my time at Emmi include: (+) Planned and executed animation content and sequences for modules in collaboration with art and editorial directors and writers using Adobe Flash and Illustrator. (+) Started a daily drawing blog for the production artist group to experiment and improve drawing capabilities."
       },
       {
         "company": "Journal of the American Medical Association, Chicago, IL",
         "title": "Medical Illustration Intern",
         "years": "2012",
-        "description": "Internship in Graphic Production Unit to produce  medical illustrations accompanying JAMA articles."
+        "description": "Medical illustration intern in partial satisfaction of my Master’s degree in Biomedical Visualization from University of Illinois-Chicago for the Journal of the American Medical Association (JAMA). I worked within a fast-past production pipeline to create illustrations for JAMA's patient pages, scientific articles, and medical news briefs. My artwork from this time was published in JAMA in four patient page articles, one medical news article, and one scientific article."
       }
         ]
   },
@@ -95,7 +95,7 @@
       {
         "title":"DimLift",
         "category":"UI/UX design research, visual data analysis",
-        "brief": "Collaborative project with the MedDigit Group at the University of Magdeburg, Germany (first author). DimLift is a novel design and interaction method using a modified dimensionality reduction technique (iteractive factor analysis of mixed data, FAMD) for visual exploration of data with many variables. This tool is designed for domain experts to rapidly identify correlated variables via so-called dimensional bundles, and reduce the analysis space. It acts as a supplementary tool to popular analysis tools already in clinical use, such as SPSS. Developed mainly with D3.js frontend and R/Python backend--click the image for more details on the project. Published in Transactions on Visualization and Computer Graphics (2021). ",
+        "brief": "Collaborative project with the MedDigit Group at the University of Magdeburg, Germany (first author).\nDimLift is a novel design and interaction method using a modified dimensionality reduction technique (iteractive factor analysis of mixed data [FAMD]) for visual exploration of data with many variables. This tool is designed for domain experts to rapidly identify correlated variables via so-called dimensional bundles, and reduce the analysis space. It acts as a supplementary tool to popular analysis tools already in clinical use, such as SPSS.\nDeveloped mainly with D3.js frontend and R/Python backend--click the image for more details on the project. Published in Transactions on Visualization and Computer Graphics (2021).",
         "image":"garrison_dimlift.jpg",
         "url":"https://github.com/lauragarrison87/DimLift"
       },

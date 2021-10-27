@@ -114,11 +114,11 @@
         "url":"https://github.com/JulianeMu/IntegratedDualAnalysisAproach_MDA"
       },
       {
-        "title":"Evaluating Biomedical Process Visualizations for Communication",
-        "category":"Empirical study, design thinking, biomedical visualization",
-        "brief": "**In progress** This study combines techniques in visualization and biomedical illustration to understand the factors that contribute to expert and lay audience evaluations of visual assets designed to communicate a given biomedical process.",
+        "title":"An Exploration of Practice and Preferences for the Visual Communication of Biomedical Processes",
+        "category":"evaluation, visual communication, health literacy, biomedical visualization",
+        "brief": "This study combines techniques in visualization and biomedical illustration to understand the factors that contribute to expert and non-expert preferences for visuals, whether computer-driven or hand-crafted, that describe a given biomedical process. Click the image to read our paper and to learn more about the project!",
         "image":"survey.png",
-        "url":"https://laura-garrison.com"
+        "url":"https://github.com/lauragarrison87/Biomedical_Process_Vis"
       }
     ]
   },

@@ -28,8 +28,8 @@ class Portfolio extends Component {
       <section id="portfolio">
       <div className="row">
 
-          <h1>Selected Projects</h1>
-          <h4>**If you are unable to access any of the below links, or would like more information, please reach out!</h4>
+          <h1>Selected Research</h1>
+          <h4>I love to collaborate! If you're interested in my work or want to have a chat, please reach out.</h4>
 
           <div className="twelve columns collapsed">
               <div id="portfolio-wrapper" className="bgrid-halves s-bgrid-halves cf">

@@ -8,7 +8,7 @@ class Portfolio extends Component {
         var projectImage = 'images/portfolio/'+projects.image;
         return <div key={projects.title} className="columns portfolio-item">
            <div className="item-wrap">
-            <a href={projects.url} title={projects.title}>
+               <a href={projects.url} title={projects.title}>
                <img alt={projects.title} src={projectImage} />
                <div className="overlay">
                   <div className="portfolio-item-meta">
@@ -19,7 +19,9 @@ class Portfolio extends Component {
               <div className="link-icon"><i className="fa fa-link"></i></div>
             </a>
           </div>
+            <h3>{projects.title}</h3>
             <p>{projects.brief}</p>
+            <p>Published in <em>{projects.pub}</em><br/>{projects.note}</p>
         </div>
       })
     }
@@ -29,7 +31,7 @@ class Portfolio extends Component {
       <div className="row">
 
           <h1>Selected Research</h1>
-          <h4>I love to collaborate! If you're interested in my work or want to have a chat, please reach out.</h4>
+          <h4>I love to collaborate! If you're interested in my work or want to have a chat, please reach out.<br/>For more information about any of the below projects, click the image to follow a link to the full paper or github project repository.</h4>
 
           <div className="twelve columns collapsed">
               <div id="portfolio-wrapper" className="bgrid-halves s-bgrid-halves cf">

@@ -19,8 +19,8 @@ class Portfolio extends Component {
               <div className="link-icon"><i className="fa fa-link"></i></div>
             </a>
           </div>
-            <h3>{projects.title}</h3>
-            <p>{projects.brief}</p>
+            <p><strong>{projects.title}</strong><br/>
+            {projects.brief}</p>
             <p>Published in <em>{projects.pub}</em><br/>{projects.note}</p>
         </div>
       })

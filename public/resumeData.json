@@ -97,6 +97,14 @@
   "portfolio":{
     "projects": [
       {
+        "title":"Considering Best Practices in Color Palettes for Molecular Visualizations",
+        "category":"evaluation, visual communication, health literacy, biomedical visualization, molecular visualization",
+        "brief":"Current color use for molecules in a molecular visualization is largely arbitrary and often chosen based on the client, cultural factors, or personal taste. We explore the rationale for developing guidelines for semantically-meaningful color palettes in molecular visualizations.",
+        "image":"moolers.png",
+        "url":"https://vis.uib.no/publications/Garrison2022MolColor/",
+        "pub": "Design X Bioinformatics Special Issue of Journal of Integrative Bioinformatics, 2022"
+      },
+      {
         "title":"Trends & Opportunities in Visualization for Physiology: A Multiscale Overview",
         "category":"physiology, visual communication, biomedical visualization, health literacy, visual analysis",
         "brief":"Combining elements of biology, chemistry, physics, and medicine, the science of human physiology is complex and multifaceted. This report offers a broad and multiscale perspective on key developments and challenges in visualization for physiology according to high-level user task.",
@@ -112,14 +120,6 @@
         "url":"https://github.com/lauragarrison87/Biomedical_Process_Vis",
         "note":"**Honorable Mention Best Paper**",
         "pub": "Proceedings of EuroGraphics Workshop on Visual Computing for Biology and Medicine, 2021"
-      },
-      {
-        "title":"Considering Best Practices in Color Palettes for Molecular Visualizations",
-        "category":"evaluation, visual communication, health literacy, biomedical visualization, molecular visualization",
-        "brief":"Current color use for molecules in a molecular visualization is largely arbitrary and often chosen based on the client, cultural factors, or personal taste. We explore the rationale for developing guidelines for semantically-meaningful color palettes in molecular visualizations.",
-        "image":"moolers.png",
-        "url":"https://vis.uib.no/publications/Garrison2022MolColor/",
-        "pub": "Design X Bioinformatics Special Issue of Journal of Integrative Bioinformatics, 2022"
       },
       {
         "title":"SpectraMosaic",

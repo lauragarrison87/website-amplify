@@ -2,7 +2,7 @@
   "main": {
     "name":"Laura Garrison",
     "occupation":"Visualization Researcher, Developer, and Designer",
-    "description":"I research and design visual solutions to complex problems in science, particularly in biology and medicine",
+    "description":"My goal is to develop better tools to discover and communicate science, especially biology and medicine",
     "image":"profilepic.png",
     "bio":"I am a trained biomedical artist and designer, first as a production artist and then as a content director and project manager in US-based medical education start-ups. In doing this I became more interested in how we specifically can leverage technology to improve health literacy at multiple levels, from visual data analysis to visual communication for education and outreach. I am now a PhD researcher under the supervision of Stefan Bruckner in the visualization group in the Department of Informatics at the University of Bergen in Norway. I'm particularly interested in exploring methods in UI/UX design to help people understand complex processes in biology and medicine.",
     "contactmessage":"",
@@ -42,19 +42,23 @@
         "school":"University of Bergen",
         "degree":"PhD candidate in Visualization, Institute for Informatics",
         "graduated":"2018 - current (**thesis submitted**)",
-        "description":"Thesis topic: Designing task-based experiences for the visualization and visual analysis of physiological processes.\nAdvisors: Dr. Stefan Bruckner, Dr. Renate Grüner\n"
+        "description":"Thesis topic:  From Molecules to the Masses: Visual Exploration, Analysis, and Communication of Human Physiology.",
+        "supervisor": "Supervisor: Dr. Stefan Bruckner (main), Dr. Renate Grüner (co-)"
+
       },
       {
         "school":"University of Illinois at Chicago",
         "degree":"MS in Biomedical Visualization",
         "graduated":"2010-12",
-        "description":"Training in art, science, design, and techonlogy tools for biomedical illustration profession.\nMasters project topic: Visualizing Stonefish Envenomation and its Effects On the Human Cardiovascular System."
+        "description":"Training in art, science, design, and techonlogy tools for biomedical illustration profession. Masters project topic: Visualizing Stonefish Envenomation and its Effects On the Human Cardiovascular System.",
+        "supervisor": ""
       },
       {
         "school":"Northern Michigan University",
         "degree":"BA Anatomy/Physiology, minors: Art, Chemistry",
         "graduated":"2005-09",
-        "description":"Graduated with full honors, following pre-medical school curriculum with additional coursework in the humanities (linguistics, art history, literature)."
+        "description":"Graduated with full honors, following pre-medical school curriculum with additional coursework in the humanities (linguistics, art history, literature).",
+        "supervisor": ""
       }
     ],
     "work":[

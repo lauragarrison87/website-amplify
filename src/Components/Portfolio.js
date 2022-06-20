@@ -19,9 +19,9 @@ class Portfolio extends Component {
               <div className="link-icon"><i className="fa fa-link"></i></div>
             </a>
           </div>
-            <p><strong>{projects.title}</strong><br/>
-            {projects.brief}</p>
-            <p>Published in <em>{projects.pub}</em><br/>{projects.note}</p>
+            {/*<p><strong>{projects.title}</strong><br/>*/}
+            {/*{projects.brief}</p>*/}
+            {/*<p>Published in <em>{projects.pub}</em><br/>{projects.note}</p>*/}
         </div>
       })
     }
@@ -30,7 +30,7 @@ class Portfolio extends Component {
       <section id="portfolio">
       <div className="row">
 
-          <h1>Selected Research</h1>
+          <h1>Selected Work</h1>
           <h4>I love to collaborate! If you're interested in my work or want to have a chat, please reach out.<br/>For more information about any of the below projects, click the image to follow a link to the full paper or github project repository.</h4>
 
           <div className="twelve columns collapsed">

@@ -22,9 +22,10 @@ class Header extends Component {
 	      <a className="mobile-btn" href="#home" title="Hide navigation">Hide navigation</a>
 
          <ul id="nav" className="nav">
+             <li><a className="smoothscroll" href="#home"><strong>{name}</strong></a></li>
              <li className="current"><a className="smoothscroll" href="#home">Home</a></li>
              <li><a className="smoothscroll" href="#about">About</a></li>
-             <li><a className="smoothscroll" href="#portfolio">Selected Research</a></li>
+             <li><a className="smoothscroll" href="#portfolio">Selected Work</a></li>
              <li><a className="smoothscroll" href="#resume">Experience</a></li>
          </ul>
 
@@ -32,9 +33,9 @@ class Header extends Component {
 
       <div className="row banner">
          <div className="banner-text">
-            <h1 className="responsive-headline">{name}</h1>
+            {/*<h1 className="responsive-headline">{name}</h1>*/}
             <h3>I'm a <span>{occupation}</span> based in {country}. {description}.</h3>
-            <hr />
+            {/*<hr />*/}
             <ul className="social">
                {networks}
             </ul>

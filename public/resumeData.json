@@ -3,7 +3,7 @@
     "name":"Laura Garrison",
     "occupation":"Visualization Researcher, Developer, and Designer",
     "description":"My goal is to develop better tools to discover and communicate science, especially biology and medicine",
-    "image":"profilepic.png",
+    "image":"profilepic.JPG",
     "bio":"I am a trained biomedical artist and designer, first as a production artist and then as a content director and project manager in US-based medical education start-ups. In doing this I became more interested in how we specifically can leverage technology to improve health literacy at multiple levels, from visual data analysis to visual communication for education and outreach. I am now a PhD researcher under the supervision of Stefan Bruckner in the visualization group in the Department of Informatics at the University of Bergen in Norway. I'm particularly interested in exploring methods in UI/UX design to help people understand complex processes in biology and medicine.",
     "contactmessage":"",
     "email": "laura.garrison [at] uib.no",
@@ -41,16 +41,16 @@
       {
         "school":"University of Bergen",
         "degree":"PhD candidate in Visualization, Institute for Informatics",
-        "graduated":"2018 - current (**thesis submitted**)",
-        "description":"Thesis topic:  From Molecules to the Masses: Visual Exploration, Analysis, and Communication of Human Physiology.",
-        "supervisor": "Supervisor: Dr. Stefan Bruckner (main), Dr. Renate Grüner (co-)"
+        "graduated":"2018 - current",
+        "description":"Thesis:  From Molecules to the Masses: Visual Exploration, Analysis, and Communication of Human Physiology.",
+        "supervisor": "Supervisors: Prof. Stefan Bruckner, Assoc. Prof. Renate Grüner"
 
       },
       {
         "school":"University of Illinois at Chicago",
         "degree":"MS in Biomedical Visualization",
         "graduated":"2010-12",
-        "description":"Training in art, science, design, and techonlogy tools for biomedical illustration profession. Masters project topic: Visualizing Stonefish Envenomation and its Effects On the Human Cardiovascular System.",
+        "description":"Training in art, science, design, and technology tools for biomedical illustration profession. Masters project topic: Visualizing Stonefish Envenomation and its Effects On the Human Cardiovascular System.",
         "supervisor": ""
       },
       {
@@ -66,7 +66,7 @@
         "company":"University of Bergen, Norway",
         "title":"Visualization researcher",
         "years":"2018 - current",
-        "description":"My research focuses on developing new and more efficient techniques, based on UI/UX design and research principles, to analyze and visualize biomedical data. My end goal is to create tools that make this complex information easier to communicate and understand for both scientists and the general public. Funded Visual Data Science for Large Scale Hypothesis Management in Imaging Biomarker Discovery (VIDI) Project. Highlights include:\n(+) Published and presented internationally collaborative research in top visualization journals (Transactions on Visualization and Computer Graphics, Computers & Graphics) and awarded Best Poster at 2019 EuroVis Conference. \n(+) Invited speaker to BioMedSpring 2021 with an international panel of speakers to educate early career medical visualization scientists. \n(+) Supervised one master’s student thesis project that led to an international conference presentation and journal publication (SpectraMosaic) and one bachelor-level group semester project (Chronic pain logging web application based on the McGill Pain Questionnaire). \n(+) Administrative and teaching-related duties for INF 100 (Introduction to Programming), INF 101 (Object-oriented programming), and INF 102 (Algorithms)"
+        "description":"My research focuses on developing new and more efficient techniques to discover and share physiological data through visualization and data science methods. My goal through this research is to create tools that make this complex information easier to communicate and understand for both scientists and the general public.\nHighlights include:\n(+) 2nd Prize Karl Heinze Höehne (MedVis) Award, 2021.\n(+) Awarded Best Poster at 2019 EuroVis Conference.\n(+) Honorable Mention for Best Full Paper VCBM 2021.\n(+) Published and presented internationally collaborative research in top visualization journals (IEEE TVCG, CGF, C & G) and conference venues.\n(+) Established and participated in international collaborations with researchers across Europe and the US.\n(+) Invited speaker to Bio+Med+Vis Spring School 2021 with an international panel of speakers to educate early career medical visualization scientists. \n(+) Supervised student research (1 Master's thesis, 2 Bachelor's projects). \n(+) Administrative and teaching-related duties for UiB's INF 100 (Introduction to Programming), INF 101 (Object-oriented programming), and INF 102 (Algorithms)."
       },
       {
         "company":"BioDigital, New York, NY",

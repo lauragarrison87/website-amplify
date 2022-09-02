@@ -1,6 +1,8 @@
 :root{
    --background: #0e265e;
-   --accent: #6b8aca;
+   --accent: #7492CD;
+   --midgrey: #74767B;
+   --dkgrey: #45464A;
 }
 
 /*:root{*/
@@ -211,12 +213,12 @@ ul#nav li.current a { color: var(--accent); } /*#11ABB0; #F06000*/
 
 #about h2 {
    font: 22px/30px 'opensans-bold', sans-serif;
-   color: #fff;
+   color: var(--background);
    margin-bottom: 12px;
 }
 #about p {
    line-height: 30px;
-   color: #fff; /*#7A7A7A;*/
+   color: var(--background);/*#fff; #7A7A7A;*/
 }
 #about .profile-pic {
    position: relative;
@@ -283,7 +285,8 @@ ul#nav li.current a { color: var(--accent); } /*#11ABB0; #F06000*/
 }
 #resume .info {
    font: 16px/24px 'librebaskerville-italic', serif;
-   color: #6E7881;
+   /*color: #6E7881;*/
+   color: var(--dkgrey);
    margin-bottom: 18px;
    margin-top: 9px;
 }
@@ -316,7 +319,7 @@ ul#nav li.current a { color: var(--accent); } /*#11ABB0; #F06000*/
 }
 
 #portfolio h4 {
-    color: #95A3A3;
+    color: var(--midgrey);
     font: 15px/24px 'opensans-semibold', sans-serif;
     text-align: center;
     margin-bottom: 36px;

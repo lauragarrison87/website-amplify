@@ -1,3 +1,13 @@
+:root{
+   --background: #0e265e;
+   --accent: #6b8aca;
+}
+
+/*:root{*/
+/*   --background: #0f3e62;*/
+/*   --accent: #63a2bb;*/
+/*}*/
+
 /*
 =====================================================================
 *   Ceevee v1.0 Layout Stylesheet
@@ -59,7 +69,7 @@ header .banner {
 header .banner-text { width: 100%; }
 header .banner-text h1 {
    font: 90px/1.1em 'opensans-bold', sans-serif;
-   color: #FCA400;
+   color: var(--accent);
    letter-spacing: -2px;
    margin: 0 auto 18px auto;
    text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
@@ -76,7 +86,7 @@ header .banner-text h3 {
 }
 header .banner-text h3 span,
 header .banner-text h3 a {
-   color: #FCA400;
+   color: var(--accent);
 }
 header .banner-text hr {
    width: 60%;
@@ -98,7 +108,7 @@ header .social li {
    padding: 0;
 }
 header .social li a { color: #fff; }
-header .social li a:hover { color: #FCA400; }
+header .social li a:hover { color: var(--accent); }
 
 /* scrolldown link */
 header .scrolldown a {
@@ -120,7 +130,7 @@ header .scrolldown a {
    -o-transition: all .3s ease-in-out;
    transition: all .3s ease-in-out;
 }
-header .scrolldown a:hover { color: #FCA400; }
+header .scrolldown a:hover { color: var(--accent); }
 
 /* primary navigation
 --------------------------------------------------------------------- */
@@ -143,7 +153,7 @@ header .scrolldown a:hover { color: #FCA400; }
    left: 0;
    top: 0;
 }
-.opaque { background-color: #B07509;} /*#333; }*/
+.opaque { background-color: var(--background);} /*#333; }*/
 
 /* hide toggle button */
 #nav-wrap > a.mobile-btn { display: none; }
@@ -182,7 +192,7 @@ ul#nav li a {
 }
 
 ul#nav li a:active { background-color: transparent !important; }
-ul#nav li.current a { color: #FCA400; } /*#11ABB0; #F06000*/
+ul#nav li.current a { color: var(--accent); } /*#11ABB0; #F06000*/
 
 
 /* ------------------------------------------------------------------ */
@@ -190,14 +200,14 @@ ul#nav li.current a { color: #FCA400; } /*#11ABB0; #F06000*/
 /* ------------------------------------------------------------------ */
 
 #about {
-   background: #FCA400; /*  #2B2B2B*/
+   background: var(--accent); /*  #2B2B2B*/
    padding-top: 96px;
    padding-bottom: 66px;
    overflow: hidden;
 }
 
 #about a, #about a:visited  { color: #fff; }
-#about a:hover, #about a:focus { color: #FCA400;} /*#11ABB0; }*/
+#about a:hover, #about a:focus { color: var(--accent);} /*#11ABB0; }*/
 
 #about h2 {
    font: 22px/30px 'opensans-bold', sans-serif;
@@ -223,11 +233,11 @@ ul#nav li.current a { color: #FCA400; } /*#11ABB0; #F06000*/
 #about .main-col { padding-right: 5%; }
 #about .download .button {
    margin-top: 6px;
-   background: #B07509;/*#444; */
+   background: var(--background);/*#444; */
 }
 #about .download .button:hover {
    background: #fff;
-   color: #B07509; /*#2B2B2B;*/
+   color: var(--background); /*#2B2B2B;*/
 }
 #about .download .button i {
    margin-right: 15px;
@@ -246,17 +256,17 @@ ul#nav li.current a { color: #FCA400; } /*#11ABB0; #F06000*/
    overflow: hidden;
 }
 
-#resume a, #resume a:visited  { color: #FCA400; }
+#resume a, #resume a:visited  { color: var(--accent); }
 #resume a:hover, #resume a:focus { color: #313131; }
 
 #resume h1 {
    font: 18px/24px 'opensans-bold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 1px;
-    color:#FCA400;
+    color:var(--accent);
 }
 #resume h1 span {
-   border-bottom: 3px solid #FCA400;
+   border-bottom: 3px solid var(--accent);
    padding-bottom: 6px;
 }
 #resume h3 {
@@ -302,7 +312,7 @@ ul#nav li.current a { color: #FCA400; } /*#11ABB0; #F06000*/
 /*   font: 15px/24px 'opensans-semibold', sans-serif;*/
     text-align: center;
    /*margin-bottom: 48px;*/
-   color: #FCA400;
+   color: var(--accent);
 }
 
 #portfolio h4 {
@@ -445,7 +455,7 @@ ul#nav li.current a { color: #FCA400; } /*#11ABB0; #F06000*/
    letter-spacing: 3px;
    cursor: pointer;
 }
-.popup-modal a:hover {	color: #FCA400; }
+.popup-modal a:hover {	color: var(--accent); }
 .popup-modal a.popup-modal-dismiss { margin-left: 24px; }
 
 
@@ -688,7 +698,7 @@ call-to-action .button {
 }
 #contact .section-head { margin-bottom: 42px; }
 
-#contact a, #contact a:visited  { color: #FCA400; }
+#contact a, #contact a:visited  { color: var(--accent); }
 #contact a:hover, #contact a:focus { color: #fff; }
 
 #contact h1 {
@@ -749,7 +759,7 @@ call-to-action .button {
 #contact textarea:focus,
 #contact select:focus {
 	color: #fff;
-	background-color: #FCA400;
+	background-color: var(--accent);
 }
 #contact button.submit {
 	text-transform: uppercase;
@@ -768,7 +778,7 @@ call-to-action .button {
 	background: #fff;
 }
 #contact span.required {
-	color: #FCA400;
+	color: var(--accent);
 	font-size: 13px;
 }
 #message-warning, #message-success {
@@ -821,14 +831,14 @@ footer {
    padding-top: 48px;
    /*margin-bottom: 48px;*/
     padding-bottom: 15px;
-   color: #FCA400;
+   color: var(--accent);
    font-size: 14px;
    text-align: center;
    position: relative;
-    background-color: #B07509;
+    background-color: var(--background);
 }
 
-footer a, footer a:visited { color: #FCA400; }
+footer a, footer a:visited { color: var(--accent); }
 footer a:hover, footer a:focus { color: #fff; }
 
 /* copyright */
@@ -884,7 +894,7 @@ footer .social-links li:first-child { margin-left: 0; }
 	display: block;
 	width: 60px;
 	height: 60px;
-	background-color: #FCA400;
+	background-color: var(--accent);
 
 	-webkit-transition: all 0.2s ease-in-out;
    -moz-transition: all 0.2s ease-in-out;
@@ -897,4 +907,4 @@ footer .social-links li:first-child { margin-left: 0; }
    line-height: 60px;
  	border-radius: 100%;
 }
-#go-top a:hover { background-color: #B07509; }
+#go-top a:hover { background-color: var(--background); }

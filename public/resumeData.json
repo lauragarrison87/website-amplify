@@ -92,7 +92,70 @@
         "years": "2012",
         "description": "Medical illustration intern in partial satisfaction of my Master’s degree in Biomedical Visualization from University of Illinois-Chicago for the Journal of the American Medical Association (JAMA). I worked within a fast-past production pipeline to create illustrations for JAMA's patient pages, scientific articles, and medical news briefs. My artwork from this time was published in: \n(+) Punnoose AR, Schwartz (Garrison) LA, Golub RM. JAMA patient page. Neonatal hyperbilirubinemia. JAMA. 2012 May 16;307(19):2115. Erratum in: JAMA. 2012 Aug 22;308(8):765. doi: 10.1001/jama.2012.4070.\n(+) Torpy JM,  Schwartz (Garrison) LA, Golub RM. JAMA patient page. Urinary tract infection. JAMA. 2012 May 2;307(17):1877. doi: 10.1001/jama.2012.3885.\n(+) Torpy JM, Schwartz (Garrison) LA, Golub RM. JAMA patient page. Rosacea. JAMA. 2012 Jun 6;307(21):2333. doi: 10.1001/jama.2012.3942.\n(+) Torpy JM, Schwartz (Garrison) LA, Golub RM. JAMA patient page. Snakebite. JAMA. 2012 Apr 18;307(15):1657. doi: 10.1001/jama.2012.433.\n(+) Slomski A. US Can Draw Insight From Other Nations’ Experiences With Evidence-Based Medicine. JAMA. 2012;307(15):1567–1569. doi:10.1001/jama.2012.457\n(+) Srygley FD, Gerardo CJ, Tran T, Fisher DA. Does This Patient Have a Severe Upper Gastrointestinal Bleed? JAMA. 2012;307(10):1072–1079. doi:10.1001/jama.2012.253"
       }
-        ]
+        ],
+    "publications": [
+      {
+        "title": "Content-Driven Layout for Visualization Design",
+        "author": "Y. Kristiansen, L. A. Garrison, and S. Bruckner",
+        "year": "2022",
+        "journal": "Proc of the International Symposium on Visual Information Communication and Interaction (to appear)",
+        "volume": "--",
+        "number": "--",
+        "pages": "--",
+        "doi": "--"
+      },
+      {
+        "title": "Considering Best Practices in Color Palettes for Molecular Visualizations",
+        "author": "L. A. Garrison, and S. Bruckner",
+        "year": "2022",
+        "journal": "Journal of Integrative Bioinformatics",
+        "volume": "",
+        "number": "",
+        "pages": "",
+        "doi": "10.1515/jib-2022-0016"
+      },
+
+      {
+        "title": "Trends & Opportunities in Visualization for Physiology: A Multiscale Overview",
+        "author": "L. A. Garrison, I. Kolesar, I. Viola, H. Hauser, and S. Bruckner",
+        "year": "2022",
+        "journal": "Computer Graphics Forum",
+        "volume": "41",
+        "number": "3",
+        "pages": "609-643",
+        "doi": "10.1111/cgf.14575"
+      },
+      {
+        "title": "",
+        "author": "Y. Kristiansen, L. A. Garrison, and S. Bruckner",
+        "year": "Semantic Snapping for Guided Multi-View Visualization Design",
+        "journal": "IEEE Transactions on Visualization and Computer Graphics",
+        "volume": "",
+        "number": "",
+        "pages": "",
+        "doi": "10.1109/TVCG.2021.3114860"
+      },
+      {
+        "title": "An Exploration of Practice and Preferences for the Visual Communication of Biomedical Processes",
+        "author": "L. A. Garrison, M. Meuschke, Jennifer Fairman, N. N. Smit, B. Preim, and S. Bruckner",
+        "year": "2021",
+        "journal": "",
+        "volume": "",
+        "number": "",
+        "pages": "",
+        "doi": ""
+      },
+      {
+        "title": "",
+        "author": "",
+        "year": "",
+        "journal": "",
+        "volume": "",
+        "number": "",
+        "pages": "",
+        "doi": ""
+      }
+    ]
   },
   "portfolio":{
     "projects": [

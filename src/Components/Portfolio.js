@@ -32,7 +32,7 @@ class Portfolio extends Component {
       <section id="portfolio">
       <div className="row">
 
-          <h1>Selected Work</h1>
+          <h1>Featured Work</h1>
           <h4>I love to collaborate! If you're interested in my work or want to have a chat, please reach out.<br/>For more information about any of the below projects, click the image to follow a link to project page.</h4>
 
           <div className="twelve columns collapsed">

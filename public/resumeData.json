@@ -4,7 +4,7 @@
     "occupation":"Visualization Researcher, Developer, and Designer",
     "description":"My goal is to develop better tools to discover and communicate science, especially biology and medicine",
     "image":"profilepic.png",
-    "bio":"I am a trained biomedical artist and designer, first as a production artist and then as a content director and project manager in US-based medical education start-ups. In doing this I became more interested in how we specifically can leverage technology to improve health literacy at multiple levels, from visual data analysis to visual communication for education and outreach. I am now a PhD researcher under the supervision of Stefan Bruckner in the visualization group in the Department of Informatics at the University of Bergen in Norway. I'm particularly interested in exploring methods in UI/UX design and visual data science to help people understand complex processes in biology and medicine.",
+    "bio":"I am a trained biomedical artist and designer, first as a production artist and then as a content director and project manager in US-based medical education start-ups. In doing this I became more interested in how we specifically can leverage technology to improve health literacy at multiple levels, from visual data analysis to visual communication for education and outreach. I successfully defended my PhD in September 2022, and am a researcher in the visualization group in the Department of Informatics at the University of Bergen in Norway. I'm particularly interested in exploring methods in UI/UX design and visual data science to help people understand complex processes in biology and medicine.",
     "contactmessage":"",
     "email": "laura.garrison [at] uib.no",
     "phone": "",
@@ -40,8 +40,8 @@
     "education":[
       {
         "school":"University of Bergen",
-        "degree":"PhD candidate in Visualization, Institute for Informatics",
-        "graduated":"2018 - current",
+        "degree":"PhD in Visualization, Institute for Informatics",
+        "graduated":"2018-22 (Sucessfully defended 16.09.2022)",
         "description":"Thesis:  From Molecules to the Masses: Visual Exploration, Analysis, and Communication of Human Physiology.",
         "supervisor": "Supervisors: Prof. Stefan Bruckner, Assoc. Prof. Renate Grüner"
 
@@ -94,6 +94,16 @@
       }
         ],
     "publications": [
+      {
+        "title": "Is there a Tornado in Alex’s Blood Flow? A Case Study for Narrative Medical Visualization",
+        "author": "Kleinau, A. and Stupak, E. and Mörth, E. and Garrison, L. A. and Mittenentzwei, S. and Smit, N. N. and Lawonn, K. and Bruckner, S. and Gutberlet, M. and Preim, B. and Meuschke, M.",
+        "year": "2022",
+        "journal": "",
+        "volume": "",
+        "number": "",
+        "pages": "",
+        "doi": ""
+      },
       {
         "title": "Content-Driven Layout for Visualization Design",
         "author": "Y. Kristiansen, L. A. Garrison, and S. Bruckner",

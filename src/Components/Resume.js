@@ -98,17 +98,17 @@ class Resume extends Component {
                               <span className="info">doi: <a href="https://doi.org/10.1109/TVCG.2021.3114860" target="_blank">10.1109/TVCG.2021.3114860</a></span>
                           </p>
                           <p>
-                              <strong>L. A. Garrison</strong>, M. Meuschke, J. Fairman, N. Smit, B. Preim, and S. Bruckner, "An Exploration of Practice and Preferences for the Visual Communication of Biomedical Processes," Proceedings of EuroGraphics Workshop on Visual Computing for Biology & Medicine (VCBM), pp.1–12, 2021.<br />
+                              <strong>L. A. Garrison</strong>, M. Meuschke, J. Fairman, N. Smit, B. Preim, and S. Bruckner, "An Exploration of Practice and Preferences for the Visual Communication of Biomedical Processes," Proceedings of EuroGraphics Workshop on Visual Computing for Biology & Medicine (VCBM), pp.1–12, 2021.
                               <br/>
-                              <span className="info">doi: <a href="https://doi.org/10.2312/vcbm20211339" target="_blank">10.2312/vcbm20211339</a></span>
-                              <em>Received Honorable Mention for Best Paper at the VCBM 2021 Workshop in Paris, France.</em>
+                              <span className="info">doi: <a href="https://doi.org/10.2312/vcbm20211339" target="_blank">10.2312/vcbm20211339</a></span><br/>
+                              <em>Received <strong>Honorable Mention for Best Full Paper</strong> at the VCBM 2021 Workshop in Paris, France.</em>
                           </p>
                           <p>
                               <strong>L. A. Garrison</strong>, J. Müller, S. Schreiber, S. Oeltze-Jafra, H. Hauser, and S. Bruckner, "DimLift: Interactive Hierarchical Data Exploration through Dimensional Bundling," IEEE Transactions on Visualization & Computer Graphics, vol. 27(6), pp. 2908-2922, 2021.
                               <br/>
                               <span className="info">doi: <a href="https://doi.org/10.1109/TVCG.2021.3057519" target="_blank">10.1109/TVCG.2021.3057519</a></span>
-                              <br/><em>This work, together with SpectraMosaic, received an Honorable Mention for the 2021
-                                  MedVis (Karl Heinz Höhne) Award, awarded by the professional group Visual
+                              <br/><em>This work, together with SpectraMosaic, received an <strong>Honorable Mention for the 2021
+                              MedVis (Karl Heinz Höhne) Award</strong>, awarded by the professional group Visual
                                   Computing in Biology and Medicine, a section of the German Society for Computer
                                   Science, and sponsored by Brainlab AG in Munich.</em>
                           </p>
@@ -121,8 +121,8 @@ class Resume extends Component {
                               <strong>L. A. Garrison</strong>, J. Vašíˇcek, A. R. Craven, R. Grüner, N. Smit, and S. Bruckner, "Interactive Visual Exploration of Metabolite Ratios in MR Spectroscopy Studies," Computers & Graphics, vol. 92, pp. 1–12, 2020.
                               <br/>
                               <span className="info">doi: <a href="https://doi.org/10.1016/j.cag.2020.08.001" target="_blank">10.1016/j.cag.2020.08.001</a></span>
-                              <br/><em>This work, together with DimLift, received an Honorable Mention for the 2021
-                                  MedVis (Karl Heinz Höhne) Award, awarded by the professional group Visual
+                              <br/><em>This work, together with DimLift, received an <strong>Honorable Mention for the 2021
+                              MedVis (Karl Heinz Höhne) Award</strong>, awarded by the professional group Visual
                                   Computing in Biology and Medicine, a section of the German Society for Computer
                                   Science, and sponsored by Brainlab AG in Munich.</em>
                           </p>
@@ -138,7 +138,7 @@ class Resume extends Component {
                           </p>
                           <p>
                               <strong>L. A. Garrison</strong>, J. Vašíˇcek, R. Grüner, N. Smit, and S. Bruckner, "A Visual Encoding System for Comparative Exploration of Magnetic Resonance Spectroscopy Data," Proceedings of EuroVis (Posters), 2022.<br/>
-                              <em>Awarded Best Poster at EuroVis 2019 Conference in Porto, Portugal.</em>
+                              <em>Awarded <strong>Best Poster</strong> at EuroVis 2019 Conference in Porto, Portugal.</em>
                           </p>
                       </div>
                   </div>

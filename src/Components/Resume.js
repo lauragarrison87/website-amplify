@@ -5,16 +5,18 @@ class Resume extends Component {
 
     if(this.props.data){
         var work = this.props.data.work.map(function(work){
-            return <div key={work.company}><h3>{work.company}</h3>
+            return <div key={work.company}>
+                <h3>{work.company}</h3>
                 <p className="info">{work.title}<span>&bull;</span> <em className="date">{work.years}</em></p>
-                {/*<p><br />{work.description}</p>*/}
-                <p><div className='new-line'>{work.description}</div></p>
+                <p className='new-line'>{work.description}</p>
             </div>
         })
         var education = this.props.data.education.map(function(education){
-            return <div key={education.school}><h3>{education.school}</h3>
-            <p className="info">{education.degree} <span>&bull;</span><em className="date">{education.graduated}</em></p>
-            <p>{education.description}<br/>{education.supervisor}</p></div>
+            return <div key={education.school}>
+                <h3>{education.school}</h3>
+                <p className="info">{education.degree} <span>&bull;</span><em className="date">{education.graduated}</em></p>
+                <p>{education.description}<br/>{education.supervisor}</p>
+            </div>
         })
         // var publications = this.props.data.publications.map(function (publications) {
         //     return <div>
@@ -27,11 +29,9 @@ class Resume extends Component {
     return (
       <section id="resume">
           <div className="row work">
-
               <div className="three columns header-col">
                   <h1><span>Work</span></h1>
               </div>
-
               <div className="nine columns main-col">
                   {work}
               </div>
@@ -73,7 +73,6 @@ class Resume extends Component {
                               <br />
                               <span className="info">Access: <a href="https://bora.uib.no/bora-xmlui/handle/11250/3015990" target="_blank">https://bora.uib.no/bora-xmlui/handle/11250/3015990</a></span>
                           </p>
-
                           <p>
                               <strong>L. A. Garrison</strong> and S. Bruckner, "Considering Best Practices in Color Palettes for Molecular Visualizations," Design X Bioinformatics Special Issue of Journal of Integrative Bioinformatics, vol. 19(2), pp. 20220016, 2022.
                               <br/>

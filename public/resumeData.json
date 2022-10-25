@@ -2,9 +2,9 @@
   "main": {
     "name":"Laura Garrison",
     "occupation":"Visualization Researcher, Developer, and Designer",
-    "description":"My goal is to develop better tools to discover and communicate science, especially biology and medicine",
+    "description":"I use visualization to ask questions and tell stories about data and concepts",
     "image":"profilepic.png",
-    "bio":"I am a trained biomedical artist and designer, first as a production artist and then as a content director and project manager in US-based medical education start-ups. In doing this I became more interested in how we specifically can leverage technology to improve health literacy at multiple levels, from visual data analysis to visual communication for education and outreach. I successfully defended my PhD in September 2022, and am a researcher in the visualization group in the Department of Informatics at the University of Bergen in Norway. I'm particularly interested in exploring methods in UI/UX design and visual data science to help people understand complex processes in biology and medicine.",
+    "bio": "I use visualization to ask questions and tell stories about data. I earned my PhD in visualization earlier this year, where my research focused on visual exploration and communication methods for physiology data (data that describes how our bodies work). I am also a professional biomedical artist, meaning I've drawn guts for a living. Prior to my PhD, I worked for six years as an artist and content director in medical education start-ups in Silicon Valley, Chicago, and New York City. I love combining art, science, and technology to help people understand data or concepts, especially in the areas of biology and medicine. More recently, I've become interested in developing visualizations that are more accessible, i.e., usable and understandable, for different segments of the population. If you want to talk more or work together, please reach out!",
     "contactmessage":"",
     "email": "laura.garrison [at] uib.no",
     "phone": "",

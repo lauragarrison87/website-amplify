@@ -4,6 +4,7 @@ class Resume extends Component {
   render() {
 
     if(this.props.data){
+        var resumeDownload = this.props.data.resumedownload;
         var work = this.props.data.work.map(function(work){
             return <div key={work.company}>
                 <h3>{work.company}</h3>
@@ -29,6 +30,7 @@ class Resume extends Component {
     return (
       <section id="resume">
           <div className="row work">
+              <p>For details on invited talks and conference presentations, teaching and supervision, professional memberships and more, please <a href={resumeDownload} target="_blank" rel="noreferrer">see my full CV</a>.</p>
               <div className="three columns header-col">
                   <h1><span>Work</span></h1>
               </div>
@@ -49,6 +51,23 @@ class Resume extends Component {
                </div>
             </div>
          </div>
+      </div>
+
+      <div className="row awards">
+          <div className="three columns header-col">
+              <h1><span>Recent Awards</span></h1>
+          </div>
+          <div className="nine columns main-col">
+              <div className="row item">
+                  <div className="twelve columns">
+                      <p><strong>Best Redesign Challenge Entry</strong>, Bio+MedVis Protein Beasts Redesign Challenge @ IEEE VIS, Oklahoma City, Oklahoma, 2022.</p>
+                      <p><strong>Honorable Mention, Best Full Paper</strong>, Eurographics Workshop for Visual Computing in Biology and Medicine, Paris, France, 2021.</p>
+                      <p><strong>Selected Participant</strong>, GenderActs Program for Early Career Researchers, Faculty of Mathematics and Natural Sciences, University of Bergen, 2021-22.</p>
+                      <p><strong>Best Poster Award</strong>. 2019 EuroVis Conference, Porto, Portugal. 2019.</p>
+                      <p><strong>MedVis Award (Karl-Heinz Höhne Award)</strong>, 2nd prize. Regensburg, Germany. 2021.</p>
+                  </div>
+              </div>
+          </div>
       </div>
 
           <div className="row publications">

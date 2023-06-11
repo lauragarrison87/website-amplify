@@ -30,7 +30,7 @@ class Resume extends Component {
     return (
       <section id="resume">
           <div className="row work">
-              <p>For details on invited talks and conference presentations, teaching and supervision, professional memberships and more, please <a href={resumeDownload} target="_blank" rel="noreferrer">see my full CV</a>.</p>
+              <p>For details on invited talks and conference presentations, teaching and supervision, professional memberships and more, please <a href="https://laura-uib.s3.eu-north-1.amazonaws.com/Garrison_CV.pdf" target="_blank" rel="noreferrer">see my full CV</a>.</p>
               <div className="three columns header-col">
                   <h1><span>Work</span></h1>
               </div>

@@ -33,7 +33,7 @@ class Portfolio extends Component {
       <div className="row">
 
           <h1>Featured Work</h1>
-          <h4>I love to collaborate! If you're interested in my work or want to have a chat, please reach out.<br/>For more information about any of the below projects, click the image to follow a link to project page.</h4>
+          <h4>If you are interested in a project or have any questions, please reach out.<br/>For more information about any of the below projects, click the image to follow a link to project page.</h4>
 
           <div className="twelve columns collapsed">
               <div id="portfolio-wrapper" className="bgrid-halves s-bgrid-halves cf">

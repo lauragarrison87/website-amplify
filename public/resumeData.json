@@ -1,10 +1,10 @@
 {
   "main": {
     "name":"Laura Garrison",
-    "occupation":"Visualization Researcher, Developer, and Designer",
-    "description":"I use visualization to ask questions and tell stories about data and concepts",
+    "occupation":"Visualization Researcher and Visual Media Designer",
+    "description":"I explore the application of visual media--data visualization, design, illustration--in asking questions and telling stories about the world we live in.",
     "image":"profilepic.png",
-    "bio": "I use visualization to ask questions and tell stories about data. I earned my PhD in visualization earlier this year, where my research focused on visual exploration and communication methods for physiology data (data that describes how our bodies work). I am also a professional biomedical artist, meaning I've drawn guts for a living. Prior to my PhD, I worked for six years as an artist and content director in medical education start-ups in Silicon Valley, Chicago, and New York City. I love combining art, science, and technology to help people understand data or concepts, especially in the areas of biology and medicine. More recently, I've become interested in developing visualizations that are more accessible, i.e., usable and understandable, for different segments of the population. If you want to talk more or work together, please reach out!",
+    "bio": "I am a visualization researcher and biomedical illustrator currently affiliated with Bouvet ASA and the Mohn Medical Imaging and Visualization Centre at Haukeland University Hospital in Bergen, Norway, and will be starting in July 2023 as an Associate Professor of Visualization in the Institute for Informatics at the University of Bergen in Norway. I am passionate about combining art, science, and technology to ask better questions and share stories about data, particularly in the life sciences. In my research, I explore the interplay and combination of methods from data visualization and biomedical illustration, and how these can impact audience behavior and comprehension. I received my PhD in Visualization from the University of Bergen for my work on multiscale visualization of human physiology for discovery and communication. I was awarded the Karl-Heinz Höhne (MedVis) Award in 2021 and the Dirk Bartz Prize this year. Prior to my PhD, I worked as an artist and content director in medical education technology start-ups in Chicago, Silicon Valley, and New York City.",
     "contactmessage":"",
     "email": "laura.garrison [at] uib.no",
     "phone": "",
@@ -63,9 +63,21 @@
     ],
     "work":[
       {
-        "company":"University of Bergen, Norway",
+        "company":"Institute for Informatics, University of Bergen, Norway",
+        "title":"Associate Professor in Visualization (Tenure-Track)",
+        "years":"Beginning July 2023",
+        "description":""
+      },
+      {
+        "company": "Bouvet ASA, Bergen, Norway",
+        "title": "Consultant, Data Analytics and Visualization",
+        "years": "Jan - June 2023",
+        "description": "I am based in the Bergen office of Bouvet, a technology consulting firm servicing businesses spanning several industry sectors, both public and private, across Scandinavia. My speciality areas include Visualization, Data Analytics and Visualization, and UI/UX Design. The working language in Bouvet is Norwegian."
+      },
+      {
+        "company":"Institute for Informatics, University of Bergen, Norway",
         "title":"Visualization researcher",
-        "years":"2018 - current",
+        "years":"2018 - 2022",
         "description":"My research focuses on developing new and more efficient techniques to discover and share physiological data through visualization and data science methods. My goal through this research is to create tools that make this complex information easier to communicate and understand for both scientists and the general public.\nHighlights include:\n(+) 2nd Prize Karl Heinze Höehne (MedVis) Award, 2021.\n(+) Awarded Best Poster at 2019 EuroVis Conference.\n(+) Honorable Mention for Best Full Paper VCBM 2021.\n(+) Published and presented internationally collaborative research in top visualization journals (IEEE TVCG, CGF, C & G) and conference venues.\n(+) Established and participated in international collaborations with researchers across Europe and the US.\n(+) Invited speaker to Bio+Med+Vis Spring School 2021 with an international panel of speakers to educate early career medical visualization scientists. \n(+) Supervised student research (1 Master's thesis, 2 Bachelor's projects). \n(+) Administrative and teaching-related duties for UiB's INF 100 (Introduction to Programming), INF 101 (Object-oriented programming), and INF 102 (Algorithms)."
       },
       {

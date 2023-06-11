@@ -1,6 +1,7 @@
 :root{
    --background: #0e265e;
    --accent: #7492CD;
+   --accentlight: #bfcfef;
    --midgrey: #74767B;
    --dkgrey: #45464A;
 }
@@ -45,7 +46,7 @@ header {
    height: 800px;
    min-height: 500px;
    width: 100%;
-   background: #161415 url(../images/header-background.jpg) no-repeat top center;
+   background: #161415 url(../images/header-background.jpg) no-repeat top center; /*#161415*/
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    text-align: center;
@@ -202,7 +203,7 @@ ul#nav li.current a { color: var(--accent); } /*#11ABB0; #F06000*/
 /* ------------------------------------------------------------------ */
 
 #about {
-   background: var(--accent); /*  #2B2B2B*/
+   background: var(--accentlight); /*  #2B2B2B*/
    padding-top: 96px;
    padding-bottom: 66px;
    overflow: hidden;
